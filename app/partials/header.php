@@ -1,7 +1,7 @@
 <div class="container container d-flex justify-content-center parallax" id="main-header">
     <div class="row align-self-center">
         <div class="col-12 text-center">
-            <h1 class="t-shadow">O Trem</h1>
+            <h1 class="t-shadow">My Mini Framework</h1>
             <div class="fixed-bottom mb-2 f-center d-flex justify-content-center">
                 <p class="pointer d-flex align-items-end">
                     <i class="fas fa-chevron-down scroll scroll-fade fa-2x oscilator" data-scroll-to="main"></i>

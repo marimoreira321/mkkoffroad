@@ -6,13 +6,27 @@
                 <h2 class="t-orange">O que fazemos?</h2>
                 <div class="divisor bg-brand-light mb-5 mt-3"></div>
 
+                <p class="t-white f-concert-one">
+                    My Mini Framework é um jeito fácil e rápido de iniciar seu projeto.
+                    Esta ferramenta é muito pequena e simples, dedicada aos portfólios e blogs.
+                    Nós incluimos em nosso projeto, o Wordpress, com um tema pré-criado básico.
+                    
+                    Cheque o arquivo <code>app/config.php</code>. Nele serão feitas as principais configurações
+                    de seu site, tais como Título, css, js, etc. 
+
+                    Não esqueça de manter a estrutura organizada para não se perder com tantas páginas!
+                    
+                    Divirta-se e bom trabalho!
+
+
+                </p>
 
             </div>
         </div>
     </div>
 </section>
 
-<section id="first-board" class="bg-brand vh-100 b-shadow z-2 p-rel pt-5">
+<section class="bg-brand vh-100 b-shadow z-2 p-rel pt-5">
     <div class="container p-5" id="aboutus">
         <div class="row">
             <div class="col-12 ml-2 text-center" >
@@ -20,10 +34,7 @@
                 <div class="divisor bg-brand-light mb-5 mt-3"></div>
 
                 <p class="t-white f-concert-one">
-                    O Trem é um selo independente de produção audiovisual. Nós realizamos 
-                    nossos trabalhos sempre com muita dedicação e compromisso com o artista ou projeto.
-                    Apesar de sermos uma empresa nova, temos tido muita visibilidade no mercado 
-                    audiovisual, produzindo dezenas de projetos e artistas na região sul de Minas Gerais.
+                    My Mini Framework
                 </p>
 
             </div>
@@ -31,26 +42,7 @@
     </div>
 </section>
 
-<section id="first-board" class="bg-brand-dark vh-100 b-shadow z-2 p-rel pt-5">
-    <div class="container p-5" id="portfolio">
-        <div class="row">
-            <div class="col-12 ml-2 text-center" >
-                <h2 class="t-orange">Nosso Portfolio</h2>
-                <div class="divisor bg-brand-light mb-5 mt-3"></div>
-
-                <p class="t-white f-concert-one">
-                    O Trem é um selo independente de produção audiovisual. Nós realizamos 
-                    nossos trabalhos sempre com muita dedicação e compromisso com o artista ou projeto.
-                    Apesar de sermos uma empresa nova, temos tido muita visibilidade no mercado 
-                    audiovisual, produzindo dezenas de projetos e artistas na região sul de Minas Gerais.
-                </p>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="first-board" class="bg-brand vh-100 b-shadow z-2 p-rel pt-5">
+<section class="bg-brand vh-100 b-shadow z-2 p-rel pt-5">
     <div class="container p-5" id="contact">
         <div class="row justify-content-center">
             <div class="col-8 ml-2 text-center" >
@@ -85,7 +77,7 @@
     </div>
 </section>
 
-<section id="first-board" class="bg-brand-dark vh-100 b-shadow z-2 p-rel pt-5">
+<section class="bg-brand-dark vh-100 b-shadow z-2 p-rel pt-5">
     <div class="container p-5" id="blog">
         <div class="row">
             <div class="col-12 ml-2 text-center" >

@@ -6,7 +6,7 @@ class Layout {
     public $page = 'app/pages/hello-world.php';
     public $header = 'app/partials/header.php';
     public $footer = 'app/partials/footer.php';
-    public $title = 'O Trem';
+    public $title = 'My Mini Framework';
     public $meta = Array();
     public $style = Array('assets/css/main.css');
     public $scripts = Array();
@@ -94,6 +94,11 @@ class Layout {
     
     public function getScripts(){
         return require_once('app/partials/pieces/scripts.php');
+    }
+
+    public function getBlog(){
+        $this->page = 'blog/index.php';
+        return $this;
     }
 
 }
