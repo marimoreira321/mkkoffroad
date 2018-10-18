@@ -1,0 +1,32 @@
+@keyframes oscilator{
+    0% {
+        bottom: 1.5rem;
+    }
+    30%{
+        bottom: 0;
+    }
+    50%{
+        bottom: 1.5rem;
+    }
+    100%{
+        bottom: 1.5rem;
+    }
+}
+.oscilator{
+    -webkit-animation: oscilator 5s infinite; /* Safari 4+ */
+    -moz-animation:    oscilator 5s infinite; /* Fx 5+ */
+    -o-animation:      oscilator 5s infinite; /* Opera 12+ */
+    animation:         oscilator 5s infinite; /* IE 10+, Fx 29+ */}
+
+.absolute{
+    &.f-center{
+        left: 50%;
+        margin-left: -15px;
+    }
+    &.f-bottom{
+        bottom: 5%;
+    }
+    &.f-top{
+        top: 5%;
+    }
+}

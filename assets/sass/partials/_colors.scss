@@ -1,0 +1,20 @@
+.bg{
+    &-brand{
+        background-color: $brand-main;
+        &-dark{
+            background-color: $brand-dark;
+        }
+        &-light{
+            background-color: $brand-light;
+        }
+    }
+    &-black{
+        background-color: black !important;
+    }
+    &-black-a{
+        background-color: rgba(0,0,0,0.5) !important;
+    }
+    &-orange{
+        background-color: $orange;
+    }
+}

@@ -1,0 +1,10 @@
+@import 'css/partials/borders.css';
+@import 'css/partials/colors.css';
+@import 'css/partials/buttons.css';
+@import 'css/partials/spacings.css';
+@import 'css/partials/tipography.css';
+@import 'css/partials/form.css';
+@import 'css/partials/post.css';
+/*Theme*/
+@import 'css/header.css';
+@import 'css/theme.css';

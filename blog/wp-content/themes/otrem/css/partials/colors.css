@@ -1,0 +1,41 @@
+/* Backgrounds */
+.bg-white{
+    background: white !important;
+}
+.bg-black{
+    background: black;
+}
+.bg-purple{
+    background: #6D2080;
+}
+.bg-grey{
+    background: rgba(168, 168, 168, 0.25)
+}
+.bg-gradient{
+    background: linear-gradient(to right, #6d2080, #4f447d);
+}
+.bg-transparent{
+    background: transparent !important;
+}
+/* Texts */
+
+.text-grey{
+    color: rgb(168, 168, 168);
+}
+.text-purple{
+    color: #6D2080
+}
+/*buttons*/
+.btn-purple{
+    background-color: #6D2080;
+    color: white;
+}
+.btn-purple-o{
+    background-color: white;
+    color: #6D2080;
+    border-color: #6D2080;
+}
+.btn-white{
+    background-color: white;
+    color: #6D2080;
+}

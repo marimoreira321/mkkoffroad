@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800');
+h1,
+.h1{
+    font-weight: 600;
+    font-size: 6em;
+}
+h3,
+.h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.text-strong{
+    font-weight: 600 !important;
+}
+.text-lighter{
+    font-weight: lighter;
+}
+.text-title{
+    font-family: Montserrat;
+    font-size: 36px;
+}
+.text-indent{
+    text-indent: 2em;
+}
+.font-12px{
+    font-size: 12px !important;
+}
+.font-16px{
+    font-size: 16px !important;
+}
+.font-14px{
+    font-size: 14px !important;
+}
+.font-18px{
+    font-size: 18px !important;
+}
+.font-24px{
+    font-size: 24px !important;
+}
+.font-36px{
+    font-size: 36px !important;
+}
+p{
+    font-size: 16px;
+}
+a{
+    color: currentColor;
+}
+.no-decoration,
+.no-decoration:hover,
+.no-decoration:focus{
+    text-decoration: none !important;
+}
+a:hover{
+    text-decoration: none;
+}
+@media screen and (max-width: 991.97px){}
+@media screen and (max-width: 767.97px){}
+@media screen and (max-width: 573.97px){
+    h1,.h1{
+        font-size: 24px;
+    }
+    p{
+        font-size: 14px;
+    }
+}

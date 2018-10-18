@@ -1,0 +1,28 @@
+.shadow{
+    box-shadow: .01em .01em 0.4em rgba(168, 168, 168, 0.25);
+    transition: 200ms ease-in-out;
+}
+.shadow:hover{
+    box-shadow: .01em .01em 1.2em rgba(168, 168, 168, 0.25);
+}
+.rounded-3px{
+    border-radius: 3px;
+}
+.rounded-5px{
+    border-radius: 5px;
+}
+.rounded-10px{
+    border-radius: 10px;
+}
+.no-border{
+    border: none;
+}
+.border{
+    border-width: 2px;
+}
+.border-1{
+    border-width: 3px;
+}
+.border-0{
+    border-width: 1px;
+}
