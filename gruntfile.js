@@ -7,7 +7,7 @@ module.exports = function(grunt) {
                         expand: true, // Enable dynamic expansion.
                         cwd: "assets/js/", // Source Path
                         src: ["*.js"], // Actual pattern(s) to match.
-                        dest: "public/pjs", // Destination folder
+                        dest: "assets/pjs/minified", // Destination folder
                         ext: ".js" // Dest filepaths will have this extension.
                     }
                 ],
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
                         expand: true, // Enable dynamic expansion.
                         cwd: "assets/js/", // Source Path
                         src: ["*.js"], // Actual pattern(s) to match.
-                        dest: "public/js", // Destination folder
+                        dest: "assets/js/minified", // Destination folder
                         ext: ".min.js" // Dest filepaths will have this extension.
                     }
                 ],
@@ -47,8 +47,8 @@ module.exports = function(grunt) {
                     {
                         expand: true,
                         src: ["*.js"],
-                        cwd: "public/pjs",
-                        dest: "public/js",
+                        cwd: "assets/js/pjs",
+                        dest: "assets/js/minified",
                         ext: ".min.js"
                     }
                 ]
@@ -66,7 +66,7 @@ module.exports = function(grunt) {
                         expand: true,
                         cwd: "assets/sass",
                         src: ["*.scss"],
-                        dest: "public/css",
+                        dest: "assets/css",
                         ext: ".min.css"
                     }
                 ]
@@ -82,27 +82,13 @@ module.exports = function(grunt) {
                         expand: true,
                         cwd: "assets/sass",
                         src: ["*.scss"],
-                        dest: "public/css",
+                        dest: "assets/css",
                         ext: ".min.css"
                     }
                 ]
             }
         },
-        copy: {
-            images: {
-                expand: true,
-                cwd: "assets/img/",
-                src: ["**/*.{png,jpg,svg}"],
-                dest: "public/img/"
-            },
-            fonts: {
-                expand: true,
-                flatten: true,
-                src: ["node_modules/@fortawesome/fontawesome-free/webfonts/*", "assets/fonts/*"],
-                dest: "public/fonts/",
-                filter: "isFile"
-            }
-        },
+        
         // configure the "grunt watch" task
         watch: {
             sass: {
@@ -122,11 +108,11 @@ module.exports = function(grunt) {
             docker: {
                 bsFiles: {
                     src: [
-                        "public/css/*",
-                        "public/fonts/*",
-                        "public/img/**",
-                        "public/js/**",
-                        "public/index.php",
+                        "assets/css/*",
+                        "assets/fonts/*",
+                        "assets/img/**",
+                        "assets/js/**",
+                        "index.php",
                         "app/**/*.php",
                         "app/**/*.json"
                     ]
