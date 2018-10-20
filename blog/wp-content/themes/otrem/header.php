@@ -10,13 +10,6 @@
     if((!is_front_page() && !is_category_page()) && has_post_thumbnail()){
         
         $bgi = "url('".get_the_post_thumbnail_url()."')";
-        $action_call = '<div class="col-12 d-flex justify-content-end pr-0 call-to-action">'
-                            .'<div class="">'
-                                .'<h3 class="ml-1 text-white">Acesse e conheça!</h3>'
-                                .'<button class="btn btn-1 btn-purple">Investimentos</button>'
-                                .'<button class="btn btn-1 btn-white border-1 mr-0">Financiamentos</button>'
-                            .'</div>'
-                        .'</div>';
 
     }elseif(is_category()){
         $blog_title = '#' . get_the_category()[0]->name;
@@ -41,12 +34,12 @@
         <div id="top-bar" class="container">
 
             <div id="gotoTalentInvest" class="" style="color: white;">Ir para
-                <a href="" class="">
-                    <b>Mova</b>
+                <a href="/" class="">
+                    <b>MyMiniFramework</b>
                 </a>
             </div>
             <div id="getBackToHome" class="d-none d-md-block" style="color: white;">
-                <a href="/" class=" text-lighter">
+                <a href="/blog" class=" text-lighter">
                     <i class="fa fa-arrow-left mr-3 "></i>Voltar</a>
             </div>
             <div class="row">

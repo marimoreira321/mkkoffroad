@@ -21,7 +21,7 @@
                     <li class="menu-item p-3 scroll" data-scroll-to="aboutus">Quem Somos</li>
                     <li class="menu-item p-3 scroll" data-scroll-to="portfolio">Portfolio</li>
                     <li class="menu-item p-3 scroll" data-scroll-to="contact">Contato</li>
-                    <li class="menu-item p-3 scroll" data-scroll-to="blog">Blog</li>
+                    <li class="menu-item p-3 scroll" onclick="location.href='blog'"><a href="blog" class="no-decoration">Blog</a></li>
                 </ul>
             </div>
         </div>
