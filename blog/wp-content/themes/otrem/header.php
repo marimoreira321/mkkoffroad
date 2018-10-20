@@ -6,7 +6,7 @@
     /**
      * Sets up the header background style 
      */
-    $bgi = "linear-gradient(to right, #6d2080, #4f4e7d);";      
+    $bgi = "url('/assets/img/train.jpg') 0 80%;";      
     if((!is_front_page() && !is_category_page()) && has_post_thumbnail()){
         
         $bgi = "url('".get_the_post_thumbnail_url()."')";
@@ -30,7 +30,7 @@
 </head>
 
 <body>
-    <div class="fixed header-box" id="navbar">
+    <div class="fixed header-box py-2" id="navbar">
         <div id="top-bar" class="container">
 
             <div id="gotoTalentInvest" class="" style="color: white;">Ir para
@@ -48,7 +48,7 @@
                         <div class="col-12 col-md-6 col-lg-5">
                             <form class="search-form no-margin">
                                 <i class="fa fa-search"></i>
-                                <input type="text" placeholder="Buscar..">
+                                <?php get_search_form(); ?>
                             </form>
                             <div class="social d-none d-md-block mt-2 ml-2">
                                 <a href="">
@@ -79,7 +79,7 @@
             </div>
         </div>
     </div>
-    <div id="pg-header" class="parallax" style="background: <?php echo $bgi ?>" data-speed="3">
+    <div id="pg-header" style="background: <?php echo $bgi ?>">
 
         <div class="header-box container">
 
@@ -89,8 +89,8 @@
          * Prints the blog title 
          */
             echo
-             '<div class="title text-white m-0  mt-3 p-0 my-lg-5 py-lg-5">'
-            .'  <h1 class=" ml-3 ">'.$blog_title.'</h1>'
+             '<div class="title text-white m-0  mt-3 p-0 my-lg-5 py-lg-5 parallax hideOnScroll" data-speed="-3">'
+            .'  <h1 class=" ml-3" >'.$blog_title.'</h1>'
             .'  <div class="ml-3">'
             .'      <p style="text-indent: 0">'.get_bloginfo('description').'</p>'
             .'  </div>'
