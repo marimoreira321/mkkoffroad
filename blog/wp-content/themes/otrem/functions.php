@@ -2,7 +2,7 @@
     /**
      * Sets up wordpress supports and functions to this template.
      */
-function mova_setup(){
+function MyMiniFramework_setup(){
 
 	/**
 	 * Loads the main theme domain
@@ -62,7 +62,7 @@ function mova_setup(){
 	add_filter( 'excerpt_length', 'mova_excerpt_len', 999 );
 
 }
-add_action( 'after_setup_theme', 'mova_setup' );
+add_action( 'after_setup_theme', 'MyMiniFramework_setup' );
 
 /**
  * This function returns if the current page is a specific page category

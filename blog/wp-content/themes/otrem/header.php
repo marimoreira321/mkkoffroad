@@ -33,15 +33,17 @@
     <div class="fixed header-box py-2" id="navbar">
         <div id="top-bar" class="container">
 
-            <div id="gotoTalentInvest" class="" style="color: white;">Ir para
+            <div id="gotoMainWebsite" class="" style="color: white;">
                 <a href="/" class="">
-                    <b>MyMiniFramework</b>
+                    Ir para <b>MyMiniFramework</b>
                 </a>
             </div>
+            <?php  if(!is_home()): ?>
             <div id="getBackToHome" class="d-none d-md-block" style="color: white;">
                 <a href="/blog" class=" text-lighter">
                     <i class="fa fa-arrow-left mr-3 "></i>Voltar</a>
             </div>
+            <?php endif; ?>
             <div class="row">
                 <div class="col-12  justify-content-between">
                     <div class="row">
