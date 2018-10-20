@@ -1,6 +1,5 @@
 $(document).ready(function () {
     var scroll = $('.scroll');
-    var fade = $('.scroll-fade');
     var prlx = $('.parallax');
     var position;
     scroll.on('click', function (e) {

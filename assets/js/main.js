@@ -3,6 +3,7 @@ require('bootstrap');
 require('./partials/smoothScroll.js');
 $(document).ready(function () {
 
+    var fade = $('.scroll-fade');
 
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 20) {
@@ -10,6 +11,7 @@ $(document).ready(function () {
         } else {
             $('.menu').removeClass('bg-black-a');
         }
+        
         var st = $(this).scrollTop();
         var wh = $('body').innerHeight();
         var op = 1 - ((st) / wh) * 20;
