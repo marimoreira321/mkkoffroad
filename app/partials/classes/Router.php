@@ -1,7 +1,7 @@
 <?php 
 
 class Router{
-    private $base_url = "/myMiniFramework/";
+    private $base_url = "/";
 
     private $_routes = Array();
 
@@ -13,9 +13,13 @@ class Router{
         print_r($this->_routes);
     }
 
-    function getPage(){
-        $slug = explode($this->base_url ,$_SERVER['REQUEST_URI'])[1];
-        return $this->_routes[$slug];
+    function getPage($slug = null){
+        $slug = substr($_SERVER['REQUEST_URI'],1);
+        if(array_key_exists($slug, $this->_routes)){
+            return $this->_routes[$slug];
+        }else{
+            return $this->_routes['404'];
+        }
     }
 
 }

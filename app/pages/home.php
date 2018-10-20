@@ -12,12 +12,11 @@
                     Nós incluimos em nosso projeto, o Wordpress, com um tema pré-criado básico.
                     
                     Cheque o arquivo <code>app/config.php</code>. Nele serão feitas as principais configurações
-                    de seu site, tais como Título, css, js, etc. 
-
+                    de seu site, tais como rotas, título, css, js, etc. 
+                    Insira a página inicial de seu site no arquivo acima.
                     Não esqueça de manter a estrutura organizada para não se perder com tantas páginas!
                     
                     Divirta-se e bom trabalho!
-
 
                 </p>
 

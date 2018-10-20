@@ -96,9 +96,4 @@ class Layout {
         return require_once('app/partials/pieces/scripts.php');
     }
 
-    public function getBlog(){
-        $this->page = 'blog/index.php';
-        return $this;
-    }
-
 }
