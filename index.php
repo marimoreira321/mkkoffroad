@@ -7,14 +7,14 @@ require_once 'app/config.php';
     </head>
     <body>
         <header id="home">
-            <?php $layout->getHeader(); ?>
+            <?php require_once $layout->getHeader(); ?>
         </header>
 
         <div id="main">
-            <?php $layout->render(); ?>
+            <?php require_once $layout->render(); ?>
         </div>
         <footer class="vh-30 bg-brand">
-            <?php $layout->getFooter(); ?>
+            <?php require_once $layout->getFooter(); ?>
         </footer>
         <?php
             require_once 'app/partials/pieces/scripts.php';

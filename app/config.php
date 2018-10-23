@@ -21,6 +21,7 @@ $routes = Array(
                 $l = new Layout(),
                 $l->appendTitle('Hello Mundo!', "-")
                 ->setPage('hello-world')
+                ->setHeaderTitle('Hello Mini World!')
         ,
         //Cada chave carrega uma instância do Layout, contendo as propriedades da página, vistas em app/partials/classes/Layout.php.
         'home'=>
@@ -28,11 +29,20 @@ $routes = Array(
                 $l->appendTitle('MyMiniFramework', "-")
                 ->setPage('home')
         ,
-        //Esta instância carrega o blog. Todas as configurações do blog estão na pasta /blog, que é o wordpress.
+
         'teste'=>
                 $l = new Layout(),
                 $l->appendTitle('Teste', "-")
                 ->setPage('pagetest')
+                ->setHeaderTitle('Test page')
+                ->setHeaderImage('train.jpg')
+                ->set_env([
+                        'key' => 'Silence is golden.',//Torna-se uma variável no escopo global da rota.
+                        'keys' => 'chaves',
+                        'amb' => 'ambiente',
+                        'file' => 'config.php'
+                ])
+                ->setHeaderSubtext("The more you talk the less you hear.")
         ,
         '404'=>
                 $l = new Layout,
@@ -40,3 +50,4 @@ $routes = Array(
 );
 $r->new_route($routes);
 $layout  = $r->getPage();
+extract($layout->get_env());

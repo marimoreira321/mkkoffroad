@@ -22,4 +22,12 @@ class Router{
         }
     }
 
+    function is_page($slug){
+        return substr($_SERVER['REQUEST_URI'],1) == $slug;
+    }
+
+    function is_home(){
+        return substr($_SERVER['REQUEST_URI'],1) == "" || substr($_SERVER['REQUEST_URI'],1) == 'home';
+    }
+
 }

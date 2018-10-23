@@ -5,8 +5,8 @@
             <div class="col-12 ml-2 text-center" >
                 <h2 class="t-orange">Hello World!</h2>
                 <div class="divisor bg-brand-light mb-5 mt-3"></div>
-                <p class="t-white f-concert-one">T
-                    his is the default page for this template. Please set your main page in <code>`app/config.php`</code>
+                <p class="t-white f-concert-one">
+                    This is the default page for this template. Please set your main page in <code>`app/config.php`</code>
                 </p>
             </div>
         </div>
