@@ -1,6 +1,6 @@
-# MyMiniFramework
+# MyMini
 
-MyMiniFramework é um micro framework de trabalho para Web Developers focado na rapidez de desenvolvimento
+MyMini é um micro framework de trabalho para Web Developers focado na rapidez de desenvolvimento
 sobre uma base sólida e concretizada para que o desenvolvedor tenha total liberdade ao iniciar seu projeto,
 partindo de um pre-made project npm-ready. Contém, em suas dependências:
  - Bootstrap
@@ -9,14 +9,14 @@ partindo de um pre-made project npm-ready. Contém, em suas dependências:
  - RequireJS
  - Browserify e Babelify para ES2015 -> ES5
  - Wordpress com um tema pré montado
- - Grunt (não aplicado)
+ - Grunt
  * Outras depenências checar `package.json`.
 
  # Organização do Projeto
 
  O projeto é organizado em diretórios da seguinte forma:
 
-    - MyMiniFramework
+    - MyMini
     ├── app
     │   ├── pages
     │   ├── partials
@@ -28,26 +28,28 @@ partindo de um pre-made project npm-ready. Contém, em suas dependências:
     │   ├── css (saida do scss)
     │   ├── fonts
     │   ├── img
-    │   ├── js
+    │   ├── js*
     │   │   ├── partials
     │   │   ├── `main.js` (Arquivo js principal)
+    │   ├── pjs    
     │   │   └── `main.min.js` (saída do  broserify)
-    │   └── sass
+    │   └── sass*
     │   │   └── partials
     ├── blog
     │   ├── wp-content
     │   │   └── themes
-    │   │       └── myMiniFramework
+    │   │       └── mmfw
     │   │           ├── css 
-    │   │               └── Sass output folder (Por padrão, o output é na pasta /assets/css)
+    │   │               └── Sass output folder
     │   │           ├── img
-    │   │           ├── js
+    │   │           ├── js*
     │   │               ├── partials
     │   │               ├── `script.js` (arquivo JavaScript principal)
+    │   │           ├── pjs
     │   │               └── `script.min.js` (saída do browserify)
     │   │           ├── partials
     │   │               └── Pasta com componentes parciais das páginas
-    │   │           ├── sass
+    │   │           ├── sass*
     │   │           ├── partials
     │   │               ├── `_theme.scss` (arquivo principal do tema)
     │   │               └── partials
@@ -55,8 +57,8 @@ partindo de um pre-made project npm-ready. Contém, em suas dependências:
     │   └── *Wordpress content*
     ├── node_modules
     │ `index.php`
-    │ `browserify.sh` - compila os arquivos `script.js` e `main.js`
-    | `scss.sh` - compila todos os scss.
+    │ `browserify.sh` - compila os arquivos `script.js` e `main.js` (depreciado, utilize o grunt)
+    | `gruntfile.js`  - Roda o servidor grunt
     └── *Dependency Files*
     
-
+* Diretórios watched pelo grunt.
