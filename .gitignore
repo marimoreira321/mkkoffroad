@@ -1,6 +1,7 @@
 /nbproject*
 /node_modules*
 /assets/css*
+/blog
 !blog/wp-content/themes
 !blog/wp-content/plugins
 !blog/wp-content/languages
