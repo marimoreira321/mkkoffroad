@@ -1,24 +1,17 @@
 <?php
-require_once 'app/config.php';
-?>
-<html>
-    <head>
-        <?php require_once "app/partials/head.php" ?>
-    </head>
-    <body>
-        <header id="home">
-            <?php require_once $layout->getHeader(); ?>
-        </header>
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-        <div id="main">
-            <?php require_once $layout->render(); ?>
-        </div>
-        <footer class="vh-30 bg-brand">
-            <?php require_once $layout->getFooter(); ?>
-        </footer>
-        <?php
-            require_once 'app/partials/pieces/scripts.php';
-        ?>
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
 
-    </body>
-</html>
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
