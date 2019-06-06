@@ -1,0 +1,9 @@
+#home-carousel{
+    min-height: 60vh;
+}
+.entry-content{
+    background-color: whitesmoke;
+    color: black;
+    padding: 30px 25px;
+    border-radius: 10px;
+}

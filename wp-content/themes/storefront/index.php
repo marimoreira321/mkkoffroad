@@ -12,7 +12,9 @@
  */
 
 get_header(); ?>
-
+<?php if(is_home()):
+			get_template_part('home-page');
+else: ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -33,4 +35,5 @@ get_header(); ?>
 
 <?php
 do_action( 'storefront_sidebar' );
+endif;
 get_footer();
