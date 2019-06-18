@@ -1,4 +1,7 @@
 require('./lib/vanilla-libs.js');
+
+import Product from './vue.components/products.vue';
+
 $(document).ready(function () {
     require('./lib/on-ready-libs.js');
 
@@ -42,3 +45,25 @@ $(document).ready(function () {
 
     //---
 });
+
+//front-page-vue
+
+let data = {
+
+}
+
+let fp = new Vue({
+    el:"#products",
+    data: data,
+    components:{
+        product: Product
+    },
+
+    methods:{
+
+    },
+
+    created: function(){
+
+    }
+})

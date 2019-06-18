@@ -151,7 +151,7 @@ module.exports = function (grunt) {
             browserify: {
                 files: [
                     'assets/js/*',
-                    'blog/wp-content/themes/**/js/*'
+                    'blog/wp-content/themes/**/assets/js/diminas/*'
                 ],
                 tasks: ['newer:browserify:dev']
             },
