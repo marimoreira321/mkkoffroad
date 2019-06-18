@@ -60,16 +60,16 @@
     &-brand{
         background-color: $brand-main;
         &-dark{
-            background-color: $brand-dark;
+            background-color: $brand-dark !important;
         }
         &-light{
-            background-color: $brand-light;
+            background-color: $brand-light !important;
         }
         &-lighter{
-            background-color: $brand-lighter;
+            background-color: $brand-lighter !important;
         }
         &-red{
-            background-color: $brand-red;
+            background-color: $brand-red !important;
         }
         &-white{
             background-color: $brand-white;

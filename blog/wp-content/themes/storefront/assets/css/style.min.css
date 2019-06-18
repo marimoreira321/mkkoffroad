@@ -14755,19 +14755,19 @@ body {
 }
 
 .bg-brand-dark {
-  background-color: #1d3557;
+  background-color: #1d3557 !important;
 }
 
 .bg-brand-light {
-  background-color: #ae283a;
+  background-color: #ae283a !important;
 }
 
 .bg-brand-lighter {
-  background-color: #b9f2fc;
+  background-color: #b9f2fc !important;
 }
 
 .bg-brand-red {
-  background-color: #891b2a;
+  background-color: #891b2a !important;
 }
 
 .bg-brand-white {
