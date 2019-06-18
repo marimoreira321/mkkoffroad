@@ -47,6 +47,15 @@
         background-color: $brand-white;
     }
 }
+.bg-stripped-brand-red{
+    color: $brand-dark;
+    &:nth-of-type(2n){
+        background-color: $brand-light;
+    }
+    &:nth-of-type(2n+1){
+        background-color: $brand-red;
+    }
+}
 .bg{
     &-brand{
         background-color: $brand-main;
@@ -58,6 +67,9 @@
         }
         &-lighter{
             background-color: $brand-lighter;
+        }
+        &-red{
+            background-color: $brand-red;
         }
         &-white{
             background-color: $brand-white;

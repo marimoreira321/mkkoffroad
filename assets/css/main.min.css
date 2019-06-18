@@ -14451,7 +14451,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .t-brand-light {
-  color: #1a424c;
+  color: #ae283a;
 }
 
 .t-brand-lighter {
@@ -14460,6 +14460,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 .t-brand-white {
   color: #f1faee;
+}
+
+.t-brand-red {
+  color: #891b2a;
+}
+
+.t-brand-red-light {
+  color: #ae283a;
 }
 
 .f-concert-one {
@@ -14730,6 +14738,18 @@ body {
   background-color: #f1faee;
 }
 
+.bg-stripped-brand-red {
+  color: #1d3557;
+}
+
+.bg-stripped-brand-red:nth-of-type(2n) {
+  background-color: #ae283a;
+}
+
+.bg-stripped-brand-red:nth-of-type(2n+1) {
+  background-color: #891b2a;
+}
+
 .bg-brand {
   background-color: #1d3557;
 }
@@ -14739,11 +14759,15 @@ body {
 }
 
 .bg-brand-light {
-  background-color: #1a424c;
+  background-color: #ae283a;
 }
 
 .bg-brand-lighter {
   background-color: #b9f2fc;
+}
+
+.bg-brand-red {
+  background-color: #891b2a;
 }
 
 .bg-brand-white {
@@ -14767,7 +14791,7 @@ body {
 }
 
 .bg-navbar-fixed {
-  background-color: #1a424c;
+  background-color: #ae283a;
 }
 
 .bg-navbar {
@@ -14929,7 +14953,7 @@ body {
 .sim-fcontrol input {
   border-width: 0;
   background: transparent;
-  color: #1a424c;
+  color: #ae283a;
 }
 
 .checkbox-btn,
