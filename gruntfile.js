@@ -43,9 +43,9 @@ module.exports = function (grunt) {
                     },
                     {
                         expand: true,       // Enable dynamic expansion.
-                        cwd: 'blog/wp-content/themes/storefront/assets/js/diminas',  // Source Path
+                        cwd: 'blog/wp-content/themes/storefront-child/assets/js/diminas',  // Source Path
                         src: ['*.js'],      // Actual pattern(s) to match.
-                        dest: 'blog/wp-content/themes/storefront/assets/pjs/',  // Destination folder
+                        dest: 'blog/wp-content/themes/storefront-child/assets/pjs/',  // Destination folder
                         ext: '.min.js',     // Dest filepaths will have this extension.
                     }
                 ],
@@ -112,9 +112,9 @@ module.exports = function (grunt) {
                     },
                     {
                         expand: true,
-                        cwd: 'blog/wp-content/themes/storefront/',
+                        cwd: 'blog/wp-content/themes/storefront-child/',
                         src: ['*.scss'],
-                        dest: 'blog/wp-content/themes/storefront/assets/css',
+                        dest: 'blog/wp-content/themes/storefront-child/assets/css',
                         ext: '.min.css'
                     }
                 ]
