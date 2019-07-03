@@ -15,6 +15,7 @@ $(document).ready(function () {
 
 
     if ($(window).innerWidth() < 768) {
+        $('#menu_part').addClass('menu-mobile')
         $('.menu').removeClass('mt-4');
         $('.menu-mobile').addClass('position-fixed')
         let mobile = $('.menu-mobile');

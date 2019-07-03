@@ -44,7 +44,7 @@
             color: inherit;
         }
         &.logo{
-            width: 100px;
+            width: 150px;
             &:hover{
                 &::before{
                     background: transparent !important;
@@ -114,50 +114,7 @@
     right: 10px;
 }
 
-#main-header{
-    
-    max-width: 100vw;
-    height: 110vh;
-    font-family: $f-title;
-    color: $brand-dark;
-    box-sizing: border-box;
-    background-position: 15% 0;
-    background-size: cover;
-    margin-bottom: -1px;
-    .header-image{
-        height: 110vh;
-    }
-    h1{
-        font-size: 6rem;
-    }
-    .fixed-bottom{
-        height: 1px;
-        p{
-            a{
-                text-decoration: none;
-                color: $brand-dark;
-            }
-            height: 100%;
-            i{
-                position: relative;
-            }
-        }
-    }
-    #header{
-        position: relative;
-        z-index: 1;
-    }
-    .mask{
-        height: 110vh;
-        width: 100%;
-        position: absolute;
-        background: $header-mask-a;
-        z-index: 0;
-    }
-
-}
-
-@include media-breakpoint-down(xs){
+@include media-breakpoint-down(md){
     #main-header{
         background-size: cover;
     }
@@ -168,5 +125,11 @@
         .menu-item{
             display: block;
         }
+    }
+    .logo {
+        z-index: 0 !important;
+    }
+    .menu-mobile{
+        left: 0;
     }
 }

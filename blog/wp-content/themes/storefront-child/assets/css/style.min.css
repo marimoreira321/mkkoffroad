@@ -15436,7 +15436,7 @@ body {
 }
 
 .menu .menu-item.logo {
-  width: 100px;
+  width: 150px;
 }
 
 .menu .menu-item.logo:hover::before {
@@ -15510,56 +15510,7 @@ body {
   right: 10px;
 }
 
-#main-header {
-  max-width: 100vw;
-  height: 110vh;
-  font-family: "Montserrat", cursive;
-  color: #1d3557;
-  box-sizing: border-box;
-  background-position: 15% 0;
-  background-size: cover;
-  margin-bottom: -1px;
-}
-
-#main-header .header-image {
-  height: 110vh;
-}
-
-#main-header h1 {
-  font-size: 6rem;
-}
-
-#main-header .fixed-bottom {
-  height: 1px;
-}
-
-#main-header .fixed-bottom p {
-  height: 100%;
-}
-
-#main-header .fixed-bottom p a {
-  text-decoration: none;
-  color: #1d3557;
-}
-
-#main-header .fixed-bottom p i {
-  position: relative;
-}
-
-#main-header #header {
-  position: relative;
-  z-index: 1;
-}
-
-#main-header .mask {
-  height: 110vh;
-  width: 100%;
-  position: absolute;
-  background: rgba(135, 219, 226, 0.3);
-  z-index: 0;
-}
-
-@media (max-width: 575.98px) {
+@media (max-width: 991.98px) {
   #main-header {
     background-size: cover;
   }
@@ -15569,6 +15520,12 @@ body {
   }
   .menu .menu-item {
     display: block;
+  }
+  .logo {
+    z-index: 0 !important;
+  }
+  .menu-mobile {
+    left: 0;
   }
 }
 
