@@ -36,6 +36,12 @@
         &-white{
             color: $brand-white;
         }
+        &-red{
+            color: $brand-red;
+            &-light{
+                color: $brand-light
+            }
+        }
     }
 }
 .f{

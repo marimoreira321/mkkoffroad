@@ -14,7 +14,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link rel="stylesheet" id="dashicons-css" href="wp-content/themes/storefront/assets/css/style.min.css" type="text/css" media="all">
+<?php
+	if(is_home()){
+		echo '<link rel="stylesheet" id="home-scss" href="wp-content/themes/storefront/assets/css/style.min.css" type="text/css" media="all">';
+	}
+?>
 <?php wp_head(); ?>
 </head>
 

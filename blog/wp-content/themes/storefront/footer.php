@@ -35,6 +35,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="<?= get_template_directory_uri().'-child/assets/pjs/main.min.js'?>"></script>
 </body>
 </html>

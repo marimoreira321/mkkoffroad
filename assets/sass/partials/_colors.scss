@@ -47,17 +47,29 @@
         background-color: $brand-white;
     }
 }
+.bg-stripped-brand-red{
+    color: $brand-dark;
+    &:nth-of-type(2n){
+        background-color: $brand-red-light;
+    }
+    &:nth-of-type(2n+1){
+        background-color: $brand-red;
+    }
+}
 .bg{
     &-brand{
         background-color: $brand-main;
         &-dark{
-            background-color: $brand-dark;
+            background-color: $brand-dark !important;
         }
         &-light{
-            background-color: $brand-light;
+            background-color: $brand-light !important;
         }
         &-lighter{
-            background-color: $brand-lighter;
+            background-color: $brand-lighter !important;
+        }
+        &-red{
+            background-color: $brand-red !important;
         }
         &-white{
             background-color: $brand-white;
