@@ -1,19 +1,22 @@
 require('./lib/vanilla-libs.js');
 
-import Product from './vue.components/products.vue';
-import Jumbotron from './vue.components/jumbotron.vue';
-
 $(document).ready(function () {
+    
     require('./lib/on-ready-libs.js');
 
-        /**
-         * Sets link in post page to open in a new window.
-         */
-        /**
-     * Define açoes padrões para mobile.
+    /* Reveals the menu after page loading */
+    setTimeout(function (){
+        $('#menu_right').removeClass('d-none');
+    },300);
+
+    /* Sets the links into menu buttons */
+    $('#menu_right .menu-item').on('click', function(){
+        location.href=$(this).find('a').attr('href');
+    });
+
+    /* Sets the mobile version of the menu. Only works if loaded in mobile
+     * Otherwise will disformat
      */
-
-
     if ($(window).innerWidth() < 768) {
         $('#menu_part').addClass('menu-mobile')
         $('.menu').removeClass('mt-4');
@@ -75,40 +78,4 @@ $(document).ready(function () {
         //---
 
     //---
-});
-
-//front-page-vue
-
-let data = {
-
-}
-
-let fp = new Vue({
-    el:"#products",
-    data: data,
-    components:{
-        product: Product,
-    },
-
-    methods:{
-
-    },
-
-    created: function(){
-
-    }
-});
-
-let fpj = new Vue({
-    el: "#fp-jumbo",
-    data: data,
-    components:{
-        jumbotron: Jumbotron,
-    },
-    methods: {
-
-    },
-    created: function(){
-
-    }
 });

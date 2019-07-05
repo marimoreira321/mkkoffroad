@@ -15557,6 +15557,10 @@ body {
   color: #6d2080;
 }
 
+.site-main ul.products li.product {
+  box-shadow: 0.1em 0.1em 0.1em black;
+}
+
 body {
   margin: 0;
   padding: 0;

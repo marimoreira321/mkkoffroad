@@ -1,0 +1,30 @@
+2019-07-04T22:02:02+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in /home/andremury/vhosts/lat-diminas/blog/wp-content/plugins/woocommerce-pagseguro/template/checkout.php:31
+Stack trace:
+#0 /home/andremury/vhosts/lat-diminas/blog/wp-content/plugins/woocommerce-pagseguro/classes/class-wc-pagseguro-shortcodes.php(46): include()
+#1 /home/andremury/vhosts/lat-diminas/blog/wp-includes/shortcodes.php(319): WC_PagSeguro_Shortcodes::checkout('', '', 'pagseguro_check...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/andremury/vhosts/lat-diminas/blog/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(pagseg...', 'do_shortcode_ta...', '[pagseguro_chec...')
+#4 /home/andremury/vhosts/lat-diminas/blog/wp-includes/class-wp-hook.php(286): do_shortcode('[pagseguro_chec...')
+#5 /home/andremury/vhosts/lat-diminas/blog/wp-includes/plugin.php(203): WP_Hook->apply_filters('[pagseguro_chec...', Array)
+#6 /home/andremury/vhosts/lat-diminas/blog/wp-includes/post-template.php(240): apply_filters('the_content', in /home/andremury/vhosts/lat-diminas/blog/wp-content/plugins/woocommerce-pagseguro/template/checkout.php on line 31
+
+2019-07-04T22:09:10+00:00 CRITICAL Uncaught Error: Wrong parameters for Exception([string $message [, long $code [, Throwable $previous = NULL]]]) in /home/andremury/vhosts/lat-diminas/blog/wp-content/plugins/woocommerce-pagseguro/library/source/Helpers/Validate.php:34
+Stack trace:
+#0 /home/andremury/vhosts/lat-diminas/blog/wp-content/plugins/woocommerce-pagseguro/library/source/Helpers/Validate.php(34): Exception->__construct('PagSeguro Libra...', '[cURL]')
+#1 /home/andremury/vhosts/lat-diminas/blog/wp-content/plugins/woocommerce-pagseguro/library/source/Library.php(75): PagSeguro\Helpers\Validate::cUrl()
+#2 /home/andremury/vhosts/lat-diminas/blog/wp-content/plugins/woocommerce-pagseguro/library/source/Library.php(63): PagSeguro\Library::validate()
+#3 /home/andremury/vhosts/lat-diminas/blog/wp-content/plugins/woocommerce-pagseguro/classes/class-wc-pagseguro-api.php(51): PagSeguro\Library::initialize()
+#4 /home/andremury/vhosts/lat-diminas/blog/wp-content/plugins/woocommerce-pagseguro/classes/class-wc-pagseguro-gateway.php(329): WC_PagSeguro_A in /home/andremury/vhosts/lat-diminas/blog/wp-content/plugins/woocommerce-pagseguro/library/source/Helpers/Validate.php on line 34
+
+2019-07-04T23:58:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_directiry_uri() in /home/andremury/vhosts/lat-diminas/blog/wp-content/themes/storefront/footer.php:38
+Stack trace:
+#0 /home/andremury/vhosts/lat-diminas/blog/wp-includes/template.php(688): require_once()
+#1 /home/andremury/vhosts/lat-diminas/blog/wp-includes/template.php(647): load_template('/home/andremury...', true)
+#2 /home/andremury/vhosts/lat-diminas/blog/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home/andremury/vhosts/lat-diminas/blog/wp-content/themes/storefront/index.php(41): get_footer()
+#4 /home/andremury/vhosts/lat-diminas/blog/wp-includes/template-loader.php(74): include('/home/andremury...')
+#5 /home/andremury/vhosts/lat-diminas/blog/wp-blog-header.php(19): require_once('/home/andremury...')
+#6 /home/andremury/vhosts/lat-diminas/blog/index.php(17): require('/home/andremury...')
+#7 {main}
+  thrown, em /home/andremury/vhosts/lat-diminas/blog/wp-content/themes/storefront/footer.php, na linha 38
+

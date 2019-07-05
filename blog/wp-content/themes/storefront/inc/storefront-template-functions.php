@@ -144,7 +144,7 @@ if ( ! function_exists( 'storefront_credit' ) ) {
 					the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 				}
 				?>
-				<?php echo '<a href="https://otremcomunica.com.br" target="_blank" title="' . esc_attr__( 'OTREM Comunicação Audiovisual', 'storefront' ) . '" rel="author">' . esc_html__( 'Mantidi por OTREM', 'storefront' ) . '</a>'; ?>
+				<?php echo '<a href="https://otremcomunica.com.br" target="_blank" title="' . esc_attr__( 'OTREM Comunicação Audiovisual', 'storefront' ) . '" rel="author">' . esc_html__( 'Mantido por OTREM', 'storefront' ) . '</a>'; ?>
 			<?php } ?>
 		</div><!-- .site-info -->
 		<?php

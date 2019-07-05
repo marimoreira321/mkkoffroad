@@ -1,0 +1,20 @@
+@import '../../../../assets/sass/partials/imports';
+
+@import 'assets/scss/partials/header';
+
+.site-main{
+    ul.products{
+        li.product{
+            box-shadow: 0 0 1em $gray-alpha-1;
+            transition: #{$default-transition} #{$default-transition-time};
+            padding-bottom: 1em;
+            &:hover{
+                box-shadow: 0 0 2em $gray-alpha-2;                
+            }
+        }
+        li.product,
+        img{
+            border-radius: $border-radius;
+        }
+    }
+}

@@ -104,4 +104,4 @@ $t_uri = get_template_directory_uri().'-child';
 </div>
 
 
-<script defer src="<?= $t_uri.'/assets/pjs/script.min.js' ?>"></script>
+<script defer src="<?= $t_uri.'/assets/pjs/front-page.min.js' ?>"></script>

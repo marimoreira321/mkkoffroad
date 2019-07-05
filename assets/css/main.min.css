@@ -14443,7 +14443,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .t-brand {
-  color: #1d3557 !important;
+  color: #020254 !important;
 }
 
 .t-brand-dark {
@@ -14451,7 +14451,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .t-brand-light {
-  color: #ae283a;
+  color: #87dbe2;
 }
 
 .t-brand-lighter {
@@ -14463,11 +14463,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .t-brand-red {
-  color: #891b2a;
+  color: #850101;
 }
 
 .t-brand-red-light {
-  color: #ae283a;
+  color: #87dbe2;
 }
 
 .f-concert-one {
@@ -14747,11 +14747,11 @@ body {
 }
 
 .bg-stripped-brand-red:nth-of-type(2n+1) {
-  background-color: #891b2a;
+  background-color: #850101;
 }
 
 .bg-brand {
-  background-color: #1d3557;
+  background-color: #020254;
 }
 
 .bg-brand-dark {
@@ -14759,7 +14759,7 @@ body {
 }
 
 .bg-brand-light {
-  background-color: #ae283a !important;
+  background-color: #87dbe2 !important;
 }
 
 .bg-brand-lighter {
@@ -14767,7 +14767,7 @@ body {
 }
 
 .bg-brand-red {
-  background-color: #891b2a !important;
+  background-color: #850101 !important;
 }
 
 .bg-brand-white {
@@ -14791,7 +14791,7 @@ body {
 }
 
 .bg-navbar-fixed {
-  background-color: #ae283a;
+  background-color: #87dbe2;
 }
 
 .bg-navbar {
@@ -14803,7 +14803,7 @@ body {
 }
 
 .bg-toTopBtn {
-  background-color: #1d3557;
+  background-color: #020254;
   color: #f1faee;
 }
 
@@ -14947,13 +14947,13 @@ body {
 
 .form-control:focus {
   background: transparent;
-  color: #b9f2fc;
+  color: #ae283a;
 }
 
 .sim-fcontrol input {
   border-width: 0;
   background: transparent;
-  color: #ae283a;
+  color: #850101;
 }
 
 .checkbox-btn,
@@ -14990,7 +14990,7 @@ body {
 
 .checkbox-btn input:checked ~ .flag,
 .radio-btn input:checked ~ .flag {
-  color: #28a745;
+  color: #cad780;
   font-weight: bold;
 }
 
@@ -15023,11 +15023,11 @@ body {
 
 .radio-btn input:checked ~ .checkmark {
   background-color: transparent;
-  border-color: #28a745;
+  border-color: #cad780;
 }
 
 .radio-btn input:checked ~ .checkmark::after {
-  background-color: #28a745;
+  background-color: #cad780;
 }
 
 .radio-btn .checkmark {
@@ -15038,11 +15038,11 @@ body {
   width: 11px;
   height: 11px;
   border-radius: 50%;
-  background-color: #28a745;
+  background-color: #cad780;
 }
 
 .checkbox-btn input:checked ~ .checkmark {
-  background-color: #28a745;
+  background-color: #cad780;
   border-color: transparent;
 }
 
@@ -15253,7 +15253,7 @@ body {
 }
 
 .adm-thumbnail label .action-icon i.fa-trash:hover {
-  color: #1d3557;
+  color: #020254;
 }
 
 .adm-thumbnail label .action-icon i.fa-camera:hover {
