@@ -14790,6 +14790,10 @@ body {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
+.bg-black-a-3 {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
 .bg-navbar-fixed {
   background-color: #87dbe2;
 }
@@ -15739,4 +15743,13 @@ input[type=text] {
 
 #content .container.w-100 {
   max-width: 100% !important;
+}
+
+#front-page .fp-title {
+  transition: ease-in-out 200ms;
+}
+
+#front-page .fp-title:hover {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  color: #0e0e0e !important;
 }

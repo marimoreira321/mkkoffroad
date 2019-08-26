@@ -26,10 +26,9 @@
 }
 .fp-product-image{
     transition: ease-in-out 200ms;
-    height: 
 }
 .fp-product-image:hover{
-    transform: scale(1.1);
+    box-shadow: 0 0 1em gray;
 }
 
 </style>

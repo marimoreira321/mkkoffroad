@@ -21,10 +21,12 @@
     }
 }
 #front-page{
-    #products{
-        // background-image: url('../images/diminas/bg-fpage-1.jpg');
-        // background-repeat: repeat-y;
-        // background-size: cover;
+    .fp-title{
+        transition: #{$default-transition} #{$default-transition-time};
+        &:hover{
+            background-color: $white-alpha-3 !important;
+            color: $brand-dark !important;
+        }
     }
 
 }
