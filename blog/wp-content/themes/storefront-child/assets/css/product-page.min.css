@@ -14790,6 +14790,10 @@ body {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
+.bg-black-a-3 {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
 .bg-navbar-fixed {
   background-color: #87dbe2;
 }
