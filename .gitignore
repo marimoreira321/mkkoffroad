@@ -1,3 +1,5 @@
 node_modules
 blog/wp-content/themes.bak
 blog/wp-config.php
+package-lock.json
+blog/wp-content/themes/storefront-child/assets/pjs
