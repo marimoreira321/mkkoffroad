@@ -14438,7 +14438,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .t-highlight {
-  color: #1d3557;
+  color: #0e0e0e;
   font-weight: bolder;
 }
 
@@ -14447,7 +14447,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .t-brand-dark {
-  color: #1d3557;
+  color: #0e0e0e;
 }
 
 .t-brand-light {
@@ -14694,7 +14694,7 @@ body {
 
 /* Backgrounds */
 .bg-white {
-  color: #1d3557 !important;
+  color: #0e0e0e !important;
   background: #fff !important;
 }
 
@@ -14719,15 +14719,15 @@ body {
 }
 
 .bg-stripped-brand-dark:nth-of-type(2n) {
-  background-color: #23416a;
+  background-color: #1b1b1b;
 }
 
 .bg-stripped-brand-dark:nth-of-type(2n+1) {
-  background-color: #1d3557;
+  background-color: #0e0e0e;
 }
 
 .bg-stripped-brand-light {
-  color: #1d3557;
+  color: #0e0e0e;
 }
 
 .bg-stripped-brand-light:nth-of-type(2n) {
@@ -14739,7 +14739,7 @@ body {
 }
 
 .bg-stripped-brand-red {
-  color: #1d3557;
+  color: #0e0e0e;
 }
 
 .bg-stripped-brand-red:nth-of-type(2n) {
@@ -14755,7 +14755,7 @@ body {
 }
 
 .bg-brand-dark {
-  background-color: #1d3557 !important;
+  background-color: #0e0e0e !important;
 }
 
 .bg-brand-light {
@@ -15409,7 +15409,7 @@ body {
   display: inline-block;
   position: relative;
   z-index: 22;
-  color: #1d3557 !important;
+  color: #b9f2fc !important;
 }
 
 .menu .menu-item.highlight::before {
@@ -15503,11 +15503,6 @@ body {
   display: none;
   opacity: 0;
   transition: all 200ms;
-}
-
-#menu_right {
-  position: absolute;
-  right: 10px;
 }
 
 @media (max-width: 991.98px) {

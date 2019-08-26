@@ -1,4 +1,5 @@
 require('./lib/vanilla-libs.js');
+import Navbar from './vue.components/navbar.vue';
 
 $(document).ready(function () {
     
@@ -66,11 +67,11 @@ $(document).ready(function () {
          * + moves the image same scrolling direction
          * - does reverse scrolling
          */
-                    if(yPos>1){
-                        $('#navbar').addClass('bg-black-a');
-                    }else{
-                        $('#navbar').removeClass('bg-black-a');
-                    }
+                    // if(yPos>1){
+                    //     $('#navbar').addClass('bg-black-a');
+                    // }else{
+                    //     $('#navbar').removeClass('bg-black-a');
+                    // }
                 }
             );
 

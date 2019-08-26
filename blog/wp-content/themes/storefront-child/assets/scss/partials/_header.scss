@@ -20,7 +20,7 @@
         display: inline-block;
         position: relative;
         z-index: 22;
-        color: $brand-dark !important;
+        color: $brand-lighter !important;
         &.highlight{
             &::before{
                 height: 100% !important;
@@ -109,10 +109,7 @@
         }
     }
 }
-#menu_right{
-    position: absolute;
-    right: 10px;
-}
+
 
 @include media-breakpoint-down(md){
     #main-header{

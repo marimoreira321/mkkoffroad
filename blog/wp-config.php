@@ -20,7 +20,7 @@
 
 // ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'mm_diminas');
+define('DB_NAME', 'mm_mkk');
 
 /** Usuário do banco de dados MySQL */
 define('DB_USER', 'root');
@@ -59,6 +59,7 @@ define('AUTH_SALT',        '$c,|s]93RWoEOS]XnXP&E8NBUL%6SV*n*h`tPdk_zl5z,)wjo}mj
 define('SECURE_AUTH_SALT', ' c$$AT,p0.ER/[`qzVO?F7~-9RTAJr0X^k0.K8AX[eu?<Q/_k:pR-~]oIMY6}.T)');
 define('LOGGED_IN_SALT',   '|A-?yhWN,T#!9*:k^gG73d*1RC`>Q+Pp~~J_Zjw_8&4$.2@^ex=q.|?w5UPb|N+c');
 define('NONCE_SALT',       'b6erH%*z5l:0lstSu-`{R8):I*.4pGyr39juhl@g(h__ql,ciqH^zm+U7j$+5{8%');
+
 
 /**#@-*/
 

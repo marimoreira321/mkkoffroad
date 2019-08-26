@@ -1,6 +1,14 @@
 
 @import '../../../../assets/sass/partials/imports';
 @import 'assets/scss/theme';
+#page {
+    background-image: url('../images/desert-background1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: top;
+    background-color: black;
+}
 #content{
     .col-full{
         width: 100% !important;
@@ -14,8 +22,9 @@
 }
 #front-page{
     #products{
-        background-image: url('../images/diminas/bg-fpage-1.jpg');
-        background-repeat: repeat-y;
-        background-size: cover;
+        // background-image: url('../images/diminas/bg-fpage-1.jpg');
+        // background-repeat: repeat-y;
+        // background-size: cover;
     }
+
 }

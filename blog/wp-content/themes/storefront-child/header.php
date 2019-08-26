@@ -16,7 +16,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php
 	if(is_home()){
-		echo '<link rel="stylesheet" id="home-scss" href="wp-content/themes/storefront-child/assets/css/style.min.css" type="text/css" media="all">';
+		echo '<link rel="stylesheet" id="home-scss" href="'.get_template_directory_uri().'-child/assets/css/style.min.css" type="text/css" media="all">';
 	}else{
 		echo '<link rel="stylesheet" id="home-scss" href="'.get_template_directory_uri().'-child/assets/css/product-page.min.css" type="text/css" media="all">';		
 	}
@@ -31,13 +31,12 @@
 <div id="page" class="hfeed site">
 <?php do_action( 'storefront_before_header' ); ?>
 
-	<header id="home" class="mb-3" role="banner">
+	<header id="home" class="mb-0" role="banner">
 		<i class="fas fa-bars fa-2x d-md-none pointer position-fixed t-white bg-navbar-fixed rounded px-2 py-1" id="menu-toggler" style="z-index: 999; top: 0.5em; left: 0.5em"></i>
-		<nav class="menu mt-3">
+		<nav class="menu mt-0 bg-brand-dark text-white">
 
-			<div class="container">
+			<div id="navbar">
 				<div class="row">
-
 				<?php require_once 'partials/navbars/default-menu.php'; ?>
 				</div>
 			</div>

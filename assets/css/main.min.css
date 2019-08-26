@@ -14438,7 +14438,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .t-highlight {
-  color: #1d3557;
+  color: #1d1d1d;
   font-weight: bolder;
 }
 
@@ -14447,7 +14447,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .t-brand-dark {
-  color: #1d3557;
+  color: #1d1d1d;
 }
 
 .t-brand-light {
@@ -14694,7 +14694,7 @@ body {
 
 /* Backgrounds */
 .bg-white {
-  color: #1d3557 !important;
+  color: #1d1d1d !important;
   background: #fff !important;
 }
 
@@ -14719,15 +14719,15 @@ body {
 }
 
 .bg-stripped-brand-dark:nth-of-type(2n) {
-  background-color: #23416a;
+  background-color: #2a2a2a;
 }
 
 .bg-stripped-brand-dark:nth-of-type(2n+1) {
-  background-color: #1d3557;
+  background-color: #1d1d1d;
 }
 
 .bg-stripped-brand-light {
-  color: #1d3557;
+  color: #1d1d1d;
 }
 
 .bg-stripped-brand-light:nth-of-type(2n) {
@@ -14739,7 +14739,7 @@ body {
 }
 
 .bg-stripped-brand-red {
-  color: #1d3557;
+  color: #1d1d1d;
 }
 
 .bg-stripped-brand-red:nth-of-type(2n) {
@@ -14755,7 +14755,7 @@ body {
 }
 
 .bg-brand-dark {
-  background-color: #1d3557 !important;
+  background-color: #1d1d1d !important;
 }
 
 .bg-brand-light {

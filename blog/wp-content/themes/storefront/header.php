@@ -16,7 +16,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php
 	if(is_home()){
-		echo '<link rel="stylesheet" id="home-scss" href="wp-content/themes/storefront/assets/css/style.min.css" type="text/css" media="all">';
+		echo '<link rel="stylesheet" id="home-scss" href="'.get_template_directory_uri().'-child/assets/css/style.min.css" type="text/css" media="all">';
 	}
 ?>
 <?php wp_head(); ?>
