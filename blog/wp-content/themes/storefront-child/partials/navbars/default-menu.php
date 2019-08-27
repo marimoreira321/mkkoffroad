@@ -3,12 +3,12 @@
         <li class="menu-item logo d-inline-block d-md-block">
             <img
             src="<?php echo get_template_directory_uri().'-child/assets/images/diminas/default.png'?>" 
-            height=70> 
+            height=150> 
         </li>
     </ul>
 </div>
 <div class="col-12 ">
-    <div class="row text-center text-md-right m-0 d-md-flex pt-3 py-sm-0 px-0 px-sm-3 align-items-center text-strong">
+    <div class="row text-center text-md-right m-0 mt-3 d-md-flex pt-3 py-sm-0 px-0 px-sm-3 align-items-center text-strong">
 
         <!-- <div class="col-12 mb-2">
             <div class="d-block d-md-none">

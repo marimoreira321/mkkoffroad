@@ -33,7 +33,7 @@
 
 	<header id="home" class="mb-0" role="banner">
 		<i class="fas fa-bars fa-2x d-md-none pointer position-fixed t-white bg-navbar-fixed rounded px-2 py-1" id="menu-toggler" style="z-index: 999; top: 0.5em; left: 0.5em"></i>
-		<nav class="menu mt-0 bg-brand-dark text-white">
+		<nav class="menu mt-0 bg-transparent text-white">
 
 			<div id="navbar">
 				<div class="row">

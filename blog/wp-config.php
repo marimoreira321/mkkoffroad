@@ -18,8 +18,8 @@
  * @package WordPress
  */
 
-if(file_exists('wp-dbconf-local.php')){
-	require_once 'wp-dbconf-local.php';
+if(file_exists($_SERVER['DOCUMENT_ROOT'].'/blog/wp-dbconf-local.php')){
+	require_once $_SERVER['DOCUMENT_ROOT'].'/blog/wp-dbconf-local.php';
 }else{
 	// ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 	/** O nome do banco de dados do WordPress */
@@ -36,7 +36,6 @@ if(file_exists('wp-dbconf-local.php')){
 }
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define('DB_CHARSET', 'utf8');
-
 /** O tipo de Collate do banco de dados. Não altere isso se tiver dúvidas. */
 define('DB_COLLATE', '');
 /** Disables WP_CRON */

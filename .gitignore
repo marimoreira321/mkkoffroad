@@ -5,3 +5,4 @@ package-lock.json
 blog/wp-content/themes/storefront-child/assets/pjs
 blog/wp-content/themes/storefront-child/assets/css
 blog/wp-dbconf-local.php
+**/uploads/

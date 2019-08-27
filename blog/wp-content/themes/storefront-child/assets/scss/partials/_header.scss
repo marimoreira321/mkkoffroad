@@ -44,7 +44,8 @@
             color: inherit;
         }
         &.logo{
-            width: 150px;
+            max-width: 30%;
+            margin-top: 2rem;
             &:hover{
                 &::before{
                     background: transparent !important;

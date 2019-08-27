@@ -15440,7 +15440,8 @@ body {
 }
 
 .menu .menu-item.logo {
-  width: 150px;
+  max-width: 30%;
+  margin-top: 2rem;
 }
 
 .menu .menu-item.logo:hover::before {
@@ -15533,7 +15534,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
-  background-position: top;
+  background-position-y: 60%;
   background-color: black;
 }
 
