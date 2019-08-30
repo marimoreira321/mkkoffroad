@@ -31,7 +31,7 @@
              * @var ofst
              * Esta té a distância do topo  da página (ypos === 0) até o topo do elemento seção
              */
-            var ofst = $(section).offset().top - 200;
+            var ofst = $(section).offset().top - 400;
             /**
              * @var s
              * Este é o elemento filho da seção que sofrerá as alterações para ser carregado
