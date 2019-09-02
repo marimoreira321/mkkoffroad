@@ -1,7 +1,7 @@
 <template>
     <div class="product">
         <a :href="uri">
-            <img :src="thumb" class="fp-product-image">
+            <img :data-src="thumb" class="fp-product-image lazy">
         </a><br/>
         <h4 class="text-strong t-brand-dark text-center">
             {{title}}
