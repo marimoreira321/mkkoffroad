@@ -8,29 +8,29 @@
  */
 
 $t_uri = get_template_directory_uri().'-child';
+$store_url = get_site_url();
 get_header(); 
 ?>
-<div id="categories-page" class="container w-100 mb-5">
-	<div class="row bg-white" id="front-banner">
-		<div class="col-12">
-			
-		</div>
-	</div>
+<div id="categories-page" class="container w-100 mb-0 px-0  pt-5 mt-3">
+
+
 	<div class="bg-white" id="categories">
 		<categories v-for="(items, idx) in categories" :key="idx"
 			:items="items.items" 
-			:title="items.title" 
+			title="NOSSOS PRODUTOS" 
 			:base_url="'<?= $t_uri ?>/assets/images/diminas/'"
-		/>
+			store_url="<?= $store_url ?>/"
+		/>		
+	</div>
 
-		
+	<div class="bg-white pb-5" id="brands">
 		<categories v-for="(items, idx) in brands" :key="idx"
 			:items="items.items" 
 			:title="items.title"
 			 cols="3"
 			:base_url="'<?= $t_uri ?>/assets/images/diminas/'"
+			store_url="<?= $store_url ?>/"
 		/>
-		
 	</div>
 </div>
 

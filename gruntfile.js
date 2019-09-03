@@ -145,13 +145,14 @@ module.exports = function (grunt) {
                 tasks: ['newer:sass:dev']
             },
             sass_blog: {
-                files: 'blog/wp-content/themes/**/*',
+                files: ['blog/wp-content/themes/**/scss/*.scss',
+                        'blog/wp-content/themes/storefront-child/*.scss'],
                 tasks: ['newer:sass:dev']
             },
             browserify: {
                 files: [
-                    'assets/js/*',
-                    'blog/wp-content/themes/**/assets/js/diminas/*'
+                    'assets/js/*.js',
+                    'blog/wp-content/themes/**/assets/js/diminas/*.js'
                 ],
                 tasks: ['newer:browserify:dev']
             },

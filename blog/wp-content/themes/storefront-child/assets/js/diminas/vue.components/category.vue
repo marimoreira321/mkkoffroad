@@ -1,11 +1,11 @@
 <template>
-    <div class="category border-radius-sm">
+    <div class="category border-radius-sm py-2">
         <button 
-            :href="uri"
+            @click="go"
             :style="'background-image: url('+thumb+')'"
             class="d-flex align-items-end justify-content-center"
         >
-            <h6 class="text-strong t-white text-center bg-black-a-3 px-1 border-radius-sm">
+            <h6 class="text-strong t-white text-center px-1 border-radius-sm category-name">
                 {{title}}
             </h6>
         </button><br/>
@@ -20,7 +20,13 @@
         },
         props: [
             'thumb', 'title', 'uri'
-        ]
+        ],
+        methods:{
+            go: function()
+            {
+                location.href=this.uri
+            }
+        }
     }
 </script>
 
@@ -30,7 +36,13 @@
 }
 
 .category button:hover{
-    background-size: 250%;
+    background-size: 230%;
+}
+.category button:hover > .category-name{
+    margin-bottom: 18px;
+}
+.category-name{
+    transition: ease-in-out 200ms;
 }
 .category button{
     height: 100%;
@@ -38,7 +50,12 @@
     background-position: center;
     background-size: 210%;
     transition: ease-in-out 200ms;
-    border-radius: 5px
+    border-radius: 3px;
+    border: 1px solid rgb(200, 200, 200)
+}
+
+.category-name{
+    text-shadow: 0 1px 1px rgba(0,0,0,0.25)
 }
 
 </style>

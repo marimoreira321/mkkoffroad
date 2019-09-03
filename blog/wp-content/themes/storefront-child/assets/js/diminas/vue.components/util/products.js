@@ -7,22 +7,22 @@ export default {
                     {
                         name: 'BAGAS UNIVERSAIS',
                         thumb: 'cat_01.webp',
-                        uri: '#'
+                        uri: 'categoria-produto/bagas-universai'
                     },
                     {
                         name: 'ILUMINAÇÃO',
                         thumb: 'cat_02.webp',
-                        uri: '#'
+                        uri: 'categoria-produto/iluminacao'
                     },
                     {
                         name: 'ACESSÓRIOS',
                         thumb: 'cat_03.webp',
-                        uri: '#'
+                        uri: 'categoria-produto/acessorios'
                     },
                     {
                         name: 'BARRACAS',
                         thumb: 'cat_03.webp',
-                        uri: '#'
+                        uri: 'categoria-produto/barracas'
                     }
                 ]
             },
@@ -61,22 +61,22 @@ export default {
                     {
                         name: 'BAGAS UNIVERSAIS',
                         thumb: 'cat_01.webp',
-                        uri: '#'
+                        uri: 'categoria-produto/bagas-universais'
                     },
                     {
                         name: 'ILUMINAÇÃO',
                         thumb: 'cat_02.webp',
-                        uri: '#'
+                        uri: 'categoria-produto/iluminacao'
                     },
                     {
                         name: 'ACESSÓRIOS',
                         thumb: 'cat_03.webp',
-                        uri: '#'
+                        uri: 'categoria-produto/acessorios'
                     },
                     {
                         name: 'BARRACAS',
                         thumb: 'cat_03.webp',
-                        uri: '#'
+                        uri: 'categoria-produto/barracas'
                     }
                 ]
             },
@@ -88,19 +88,39 @@ export default {
             {
                 items: [
                     {
-                        name: 'BAGAS UNIVERSAIS',
+                        name: 'SUZUKI',
                         thumb: 'cat_01.webp',
-                        uri: '#'
+                        uri: 'categoria-produto/suzuki'
                     },
                     {
-                        name: 'ILUMINAÇÃO',
+                        name: 'MITSUBISHI',
                         thumb: 'cat_02.webp',
-                        uri: '#'
+                        uri: 'categoria-produto/mitsubishi'
                     },
                     {
-                        name: 'ACESSÓRIOS',
+                        name: 'TOYOTA',
                         thumb: 'cat_03.webp',
-                        uri: '#'
+                        uri: 'categoria-produto/toyota'
+                    },
+                    {
+                        name: 'LANDROVER',
+                        thumb: 'cat_03.webp',
+                        uri: 'categoria-produto/landrover'
+                    },
+                    {
+                        name: 'JEEP',
+                        thumb: 'cat_03.webp',
+                        uri: 'categoria-produto/jeep'
+                    },
+                    {
+                        name: 'CHEVROLET',
+                        thumb: 'cat_03.webp',
+                        uri: 'categoria-produto/chevrolet'
+                    },
+                    {
+                        name: 'OUTROS',
+                        thumb: 'cat_03.webp',
+                        uri: 'categoria-produto/outros'
                     },
                 ]
             },

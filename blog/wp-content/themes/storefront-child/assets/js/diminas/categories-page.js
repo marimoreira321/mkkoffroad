@@ -25,3 +25,19 @@ let fp = new Vue({
 
     }
 });
+
+let fpb = new Vue({
+    el:"#brands",
+    data: data,
+    components:{
+        Categories,
+    },
+
+    methods:{
+
+    },
+
+    created: function(){
+
+    }
+});

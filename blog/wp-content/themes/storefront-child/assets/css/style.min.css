@@ -15758,3 +15758,7 @@ input[type=text] {
 #front-page #front-banner {
   padding-bottom: 70px;
 }
+
+body {
+  padding-bottom: 0 !important;
+}

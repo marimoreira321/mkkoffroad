@@ -29,10 +29,10 @@
         <img class="d-md-none" src="<?php echo get_template_directory_uri().'/assets/images/diminas/default.png'?>" style="height: 100px">
             <ul id="menu_right" class="d-none m-0 d-md-flex pt-5 py-sm-0 px-0 px-sm-3 align-items-center  w-100 justify-content-center">
                 <li class="menu-item p-3 font-12px"><a href="<?= get_site_url() ?>">HOME</a></li>
-                <li class="menu-item p-3 font-12px"><a href="<?= get_site_url() ?>/loja">PRODUTOS</a></li>
-                <li class="menu-item p-3 font-12px"><a href="<?= get_site_url() ?>/">SOBRE NÓS</a></li>
-                <li class="menu-item p-3 font-12px"><a href="<?= get_site_url() ?>/">FAQ</a></li>
-                <li class="menu-item p-3 font-12px"><a href="<?= get_site_url() ?>/">CONTATO</a></li>
+                <li class="menu-item p-3 font-12px"><a href="<?= get_site_url() ?>/nossos-produtos">PRODUTOS</a></li>
+                <li class="menu-item p-3 font-12px"><a href="<?= get_site_url() ?>/sobre-nos">SOBRE NÓS</a></li>
+                <li class="menu-item p-3 font-12px"><a href="<?= get_site_url() ?>/perguntas-frequentes">FAQ</a></li>
+                <li class="menu-item p-3 font-12px"><a href="<?= get_site_url() ?>/contato">CONTATO</a></li>
                 <!-- <li class="menu-item p-3"><a href="/">ONDE COMPRAR</a></li> -->
             </ul>
         </div>
