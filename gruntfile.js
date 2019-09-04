@@ -2,20 +2,22 @@ module.exports = function (grunt) {
     grunt.initConfig({
         browserify: {
             dist: {
-                files: [{
-                    expand: true,        // Enable dynamic expansion.
-                    cwd: 'assets/js/',   // Source Path
-                    src: ['*.js'],       // Actual pattern(s) to match.
-                    dest: 'assets/pjs',  // Destination folder
-                    ext: '.min.js',          // Dest filepaths will have this extension.
-                },
-                {
-                    expand: true,       // Enable dynamic expansion.
-                    cwd: 'blog/wp-content/themes/**/js/',  // Source Path
-                    src: ['*.js'],      // Actual pattern(s) to match.
-                    dest: 'blog/wp-content/themes/**/pjs/',  // Destination folder
-                    ext: '.min.js',     // Dest filepaths will have this extension.
-                }],
+                files: [
+                    {
+                        expand: true,       // Enable dynamic expansion.
+                        cwd: 'assets/js/',  // Source Path
+                        src: ['*.js'],      // Actual pattern(s) to match.
+                        dest: 'assets/pjs/',  // Destination folder
+                        ext: '.min.js',     // Dest filepaths will have this extension.
+                    },
+                    {
+                        expand: true,       // Enable dynamic expansion.
+                        cwd: 'blog/wp-content/themes/storefront-child/assets/js/diminas',  // Source Path
+                        src: ['*.js'],      // Actual pattern(s) to match.
+                        dest: 'blog/wp-content/themes/storefront-child/assets/pjs/',  // Destination folder
+                        ext: '.min.js',     // Dest filepaths will have this extension.
+                    }
+                ],
                 options: {
                     transform: [
                         [
