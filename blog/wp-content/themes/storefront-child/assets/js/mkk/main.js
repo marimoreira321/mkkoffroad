@@ -1,5 +1,5 @@
 require('./lib/vanilla-libs.js');
-import Navbar from './vue.components/navbar.vue';
+import MobileMenu from './vue.components/navbar.vue';
 
 $(document).ready(function () {
     
@@ -18,30 +18,30 @@ $(document).ready(function () {
     /* Sets the mobile version of the menu. Only works if loaded in mobile
      * Otherwise will disformat
      */
-    if ($(window).innerWidth() < 768) {
-        $('#menu_part').addClass('menu-mobile')
-        $('.menu').removeClass('mt-4');
-        $('.menu-mobile').addClass('position-fixed')
-        let mobile = $('.menu-mobile');
-        mobile.css('height', 0);
-        mobile.css('transition', 'ease-in-out 200ms');
+    // if ($(window).innerWidth() < 768) {
+    //     $('#menu_part').addClass('menu-mobile')
+    //     $('.menu').removeClass('mt-4');
+    //     $('.menu-mobile').addClass('position-fixed')
+    //     let mobile = $('.menu-mobile');
+    //     mobile.css('height', 0);
+    //     mobile.css('transition', 'ease-in-out 200ms');
 
-        $('#menu-toggler').on('click', function(){
-            if(!mobile.hasClass('opened')){
-                mobile.addClass('opened');
-                let height = mobile.children("#menu_right").css('height');
-                mobile.css('height', height);
-                mobile.find('li').on('click', function(){
-                    mobile.removeClass('opened');
-                    mobile.css('height', 0);
-                })
-            }else{
-                mobile.removeClass('opened');
-                mobile.css('height', 0);
-            }
+    //     $('#menu-toggler').on('click', function(){
+    //         if(!mobile.hasClass('opened')){
+    //             mobile.addClass('opened');
+    //             let height = mobile.children("#menu_right").css('height');
+    //             mobile.css('height', height);
+    //             mobile.find('li').on('click', function(){
+    //                 mobile.removeClass('opened');
+    //                 mobile.css('height', 0);
+    //             })
+    //         }else{
+    //             mobile.removeClass('opened');
+    //             mobile.css('height', 0);
+    //         }
 
-        });
-    }
+    //     });
+    // }
 
         $('#the_post a').attr("target", "_blank");
             // Window height getter
@@ -80,3 +80,11 @@ $(document).ready(function () {
 
     //---
 });
+
+let MenuMobile = new Vue({
+    el: '#mobile-menu',
+    data: {},
+    components: {
+        MobileMenu
+    }
+})

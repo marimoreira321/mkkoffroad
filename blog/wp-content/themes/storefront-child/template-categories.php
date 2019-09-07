@@ -18,7 +18,7 @@ get_header();
 		<categories v-for="(items, idx) in categories" :key="idx"
 			:items="items.items" 
 			title="NOSSOS PRODUTOS" 
-			:base_url="'<?= $t_uri ?>/assets/images/diminas/'"
+			:base_url="'<?= $t_uri ?>/assets/images/mkk/'"
 			store_url="<?= $store_url ?>/"
 		/>		
 	</div>
@@ -28,7 +28,7 @@ get_header();
 			:items="items.items" 
 			:title="items.title"
 			 cols="3"
-			:base_url="'<?= $t_uri ?>/assets/images/diminas/'"
+			:base_url="'<?= $t_uri ?>/assets/images/mkk/'"
 			store_url="<?= $store_url ?>/"
 		/>
 	</div>

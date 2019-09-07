@@ -12,7 +12,7 @@ module.exports = function (grunt) {
                     },
                     {
                         expand: true,       // Enable dynamic expansion.
-                        cwd: 'blog/wp-content/themes/storefront-child/assets/js/diminas',  // Source Path
+                        cwd: 'blog/wp-content/themes/storefront-child/assets/js/mkk',  // Source Path
                         src: ['*.js'],      // Actual pattern(s) to match.
                         dest: 'blog/wp-content/themes/storefront-child/assets/pjs/',  // Destination folder
                         ext: '.min.js',     // Dest filepaths will have this extension.
@@ -45,7 +45,7 @@ module.exports = function (grunt) {
                     },
                     {
                         expand: true,       // Enable dynamic expansion.
-                        cwd: 'blog/wp-content/themes/storefront-child/assets/js/diminas',  // Source Path
+                        cwd: 'blog/wp-content/themes/storefront-child/assets/js/mkk',  // Source Path
                         src: ['*.js'],      // Actual pattern(s) to match.
                         dest: 'blog/wp-content/themes/storefront-child/assets/pjs/',  // Destination folder
                         ext: '.min.js',     // Dest filepaths will have this extension.
@@ -154,7 +154,7 @@ module.exports = function (grunt) {
             browserify: {
                 files: [
                     'assets/js/*.js',
-                    'blog/wp-content/themes/**/assets/js/diminas/*.js'
+                    'blog/wp-content/themes/**/assets/js/mkk/*.js'
                 ],
                 tasks: ['newer:browserify:dev']
             },

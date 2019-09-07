@@ -15,10 +15,11 @@ $t_uri = get_template_directory_uri().'-child';
 		</div>
 	</div>
 	<div class="w-100" id="portfolio">
-		<products v-for="items in products" 
+		<products v-for="(items, idx) in products" 
 			:items="items.items" 
 			:title="items.title" 
-			:base_url="'<?= $t_uri ?>/assets/images/diminas/'"
+			:base_url="'<?= $t_uri ?>/assets/images/mkk/'"
+			:key="idx"
 		/>
 	</div>
 </div>
