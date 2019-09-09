@@ -2,37 +2,90 @@
 
 @import 'assets/scss/partials/header';
 
-#page{
+#page {
     background-image: url('../images/desert-background1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     background-position-y: 60%;
     background-color: black;
 }
-#main{
+
+#main {
     background-color: $white;
     border-radius: $border-radius;
-    padding: 25px 30px 25px;   
+    padding: 25px 30px 25px;
 }
-#secondary{
+
+#secondary {
     background-color: $white;
     border-radius: $border-radius;
     padding: 20px 50px;
 }
-.site-main{
-    ul.products{
-        li.product{
+
+.site-main {
+    ul.products {
+        li.product {
             box-shadow: 0 0 1em $gray-alpha-1;
             transition: #{$default-transition} #{$default-transition-time};
             padding-bottom: 1em;
-            &:hover{
-                box-shadow: 0 0 2em $gray-alpha-2;                
+
+            &:hover {
+                box-shadow: 0 0 2em $gray-alpha-2;
             }
         }
+
         li.product,
-        img{
+        img {
             border-radius: $border-radius;
         }
+    }
+}
+
+.woocommerce-tabs {
+    ul.tabs {
+        width: 100% !important;
+        border: none !important;
+
+        li {
+            display: inline-block !important;
+            padding: 0 10px;
+            border-radius: 8px 8px 0 0;
+
+            a {
+                outline: none;
+            }
+
+            &.active {
+                background: rgba(0, 0, 0, .1);
+
+                &::after {
+                    opacity: 0 !important;
+                }
+            }
+        }
+    }
+
+    .panel {
+        float: none !important;
+        width: 100% !important;
+    }
+}
+
+form.cart {
+    background: rgba(0, 0, 0, .1);
+    padding: 0.3em ;
+    .quantity .qty{
+        outline: none;
+        margin-left: .875em;
+    }
+    button {
+        height: 100%;
+    }
+}
+
+@include media-breakpoint-down('sm') {
+    .woocommerce-tabs ul.tabs li {
+        width: 45%;
     }
 }

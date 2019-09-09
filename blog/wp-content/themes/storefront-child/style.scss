@@ -5,7 +5,7 @@
     background-image: url('../images/desert-background1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     background-position-y: 60%;
     background-color: black;
 }
@@ -35,4 +35,22 @@
 }
 body{
     padding-bottom: 0 !important;
+}
+/* PRODUCT PAGE */
+form.cart{
+    background-color: #dfdfdf;
+    .quantity{
+        .input-text{
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;
+        }
+    }
+}
+.woocommerce-tabs{ 
+    ul.tabs{
+        width: 100%;
+        li{
+            display: inline-block;
+        }
+    }
 }

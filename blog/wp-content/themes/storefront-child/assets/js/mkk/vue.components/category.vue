@@ -50,8 +50,8 @@
     background-position: center;
     background-size: 210%;
     transition: ease-in-out 200ms;
-    border-radius: 3px;
-    border: 1px solid rgb(200, 200, 200)
+    border-radius: 1px;
+    /* border: 1px solid rgb(200, 200, 200) */
 }
 
 .category-name{

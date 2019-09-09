@@ -3,7 +3,7 @@
         <div class="container w-100 px-0">
             <div class="row m-2 justify-contente-center px-2">
                 <div class="col-2">
-                    <i class="fas fa-bars fa-2x pointer"  @click="opened = true"/>
+                    <i class="fas fa-bars fa-2x pointer text-white"  @click="opened = true"/>
                 </div>
                 <div class="col-8 text-center">
                     <img :src="logo" style="height: 60px" class="d-inline-block">

@@ -14,7 +14,7 @@ get_header();
 <div id="categories-page" class="container w-100 mb-0 px-0  pt-5 mt-3">
 
 
-	<div class="bg-white" id="categories">
+	<div class="" id="categories">
 		<categories v-for="(items, idx) in categories" :key="idx"
 			:items="items.items" 
 			title="NOSSOS PRODUTOS" 
@@ -23,7 +23,7 @@ get_header();
 		/>		
 	</div>
 
-	<div class="bg-white pb-5" id="brands">
+	<div class=" pb-5" id="brands">
 		<categories v-for="(items, idx) in brands" :key="idx"
 			:items="items.items" 
 			:title="items.title"

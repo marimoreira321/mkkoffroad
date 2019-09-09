@@ -36,13 +36,13 @@ get_header(); ?>
 
 						echo '<div class="fourohfour-columns-2">';
 
-							echo '<section class="col-1" aria-label="' . esc_html__( 'Promoted Products', 'storefront' ) . '">';
+							echo '<section class="col-12 col-md-6" aria-label="' . esc_html__( 'Promoted Products', 'storefront' ) . '">';
 
 								storefront_promoted_products();
 
 							echo '</section>';
 
-							echo '<nav class="col-2" aria-label="' . esc_html__( 'Product Categories', 'storefront' ) . '">';
+							echo '<nav class="col-12" aria-label="' . esc_html__( 'Product Categories', 'storefront' ) . '">';
 
 								echo '<h2>' . esc_html__( 'Product Categories', 'storefront' ) . '</h2>';
 

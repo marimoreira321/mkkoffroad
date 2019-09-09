@@ -2,7 +2,7 @@
 
 <div class="row mt-0 pt-0">
 		<h3 class="h2 text-center t-white mt-0 w-100 py-4 bg-black-a-3 mb-0 fp-title mb-5" v-if="title">{{title}}</h3>
-		<div class="container bg-white px-5">
+		<div class="container px-5">
 			<div class="row justify-content-left px-10">
 				<div class="col-12 px-2" :class="'col-sm-'+(12/(cols || 4))"
                 v-for="(item, idx) in items" :key="idx">

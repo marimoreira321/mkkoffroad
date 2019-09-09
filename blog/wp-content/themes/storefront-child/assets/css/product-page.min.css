@@ -15533,7 +15533,7 @@ body {
   background-image: url("../images/desert-background1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
   background-position-y: 60%;
   background-color: black;
 }
@@ -15563,4 +15563,52 @@ body {
 .site-main ul.products li.product,
 .site-main ul.products img {
   border-radius: 10px;
+}
+
+.woocommerce-tabs ul.tabs {
+  width: 100% !important;
+  border: none !important;
+}
+
+.woocommerce-tabs ul.tabs li {
+  display: inline-block !important;
+  padding: 0 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.woocommerce-tabs ul.tabs li a {
+  outline: none;
+}
+
+.woocommerce-tabs ul.tabs li.active {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.woocommerce-tabs ul.tabs li.active::after {
+  opacity: 0 !important;
+}
+
+.woocommerce-tabs .panel {
+  float: none !important;
+  width: 100% !important;
+}
+
+form.cart {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.3em;
+}
+
+form.cart .quantity .qty {
+  outline: none;
+  margin-left: .875em;
+}
+
+form.cart button {
+  height: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .woocommerce-tabs ul.tabs li {
+    width: 45%;
+  }
 }
