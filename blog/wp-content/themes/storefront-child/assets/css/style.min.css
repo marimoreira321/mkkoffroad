@@ -3,7 +3,7 @@
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @import url("https://fonts.googleapis.com/css?family=Concert+One|Spirax|Cardo");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
 .fa,
 .fas,
 .far,
@@ -14471,7 +14471,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .f-concert-one {
-  font-family: "Montserrat", cursive;
+  font-family: "Titillium Web", sans-serif;
 }
 
 h1, .h1,
@@ -14480,7 +14480,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Montserrat", cursive;
+  font-family: "Titillium Web", sans-serif;
 }
 
 h1, .h1 {
@@ -14530,7 +14530,7 @@ h1, .h1 {
 
 p {
   font-size: 16px;
-  font-family: "Montserrat", cursive;
+  font-family: "Titillium Web", sans-serif;
 }
 
 a {
@@ -15393,7 +15393,7 @@ body {
 
 .menu {
   transition: ease-in-out 200ms;
-  font-family: "Montserrat", cursive;
+  font-family: "Titillium Web", sans-serif;
   position: relative;
   z-index: 4;
   top: 0;
@@ -15562,7 +15562,7 @@ body {
   padding: 0;
   padding-bottom: 100px;
   /* only for sampling */
-  font-family: Montserrat;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 /* Header definitions */
@@ -15632,13 +15632,13 @@ a:hover {
   color: #6d2080;
   font-size: 2.5em;
   font-weight: bold;
-  font-family: Montserrat;
+  font-family: 'Titillium Web', sans-serif;
   margin: 6% 0% 4% 0%;
 }
 
 #call-box button {
   width: 20%;
-  font-family: Montserrat;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 1.2em;
   font-weight: bold;
   margin: 2%;
@@ -15659,7 +15659,7 @@ a:hover {
     margin-top: -100px;
   }
   #body .container .box {
-    font-family: Montserrat;
+    font-family: 'Titillium Web', sans-serif;
     display: inline-block;
   }
   #body .container .box:first-of-type {
@@ -15746,16 +15746,16 @@ input[type=text] {
   max-width: 100% !important;
 }
 
-#front-page .fp-title {
+.fp-title {
   transition: ease-in-out 200ms;
 }
 
-#front-page .fp-title:hover {
+.fp-title:hover {
   background-color: rgba(255, 255, 255, 0.7) !important;
   color: #0e0e0e !important;
 }
 
-#front-page #front-banner {
+#front-banner {
   padding-bottom: 70px;
 }
 

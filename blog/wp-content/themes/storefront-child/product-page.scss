@@ -81,9 +81,12 @@ form.cart {
     }
     button {
         height: 100%;
+        background-color: $brand-red !important;
     }
 }
-
+a.checkout-button{
+    background-color: $brand-red !important;    
+}
 @include media-breakpoint-down('sm') {
     .woocommerce-tabs ul.tabs li {
         width: 45%;

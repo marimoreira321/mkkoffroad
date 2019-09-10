@@ -13,5 +13,11 @@
 .col-full {
     max-width: 90vw !important;
 }
+body{
+    font-family:  'Titillium Web', sans-serif !important
+}
 
-
+.storefront-sticky-add-to-cart__content-button{
+    height: 100%;
+    background-color: #850101 !important;
+}

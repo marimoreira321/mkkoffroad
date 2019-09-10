@@ -3,7 +3,7 @@
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @import url("https://fonts.googleapis.com/css?family=Concert+One|Spirax|Cardo");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
 .fa,
 .fas,
 .far,
@@ -14471,7 +14471,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .f-concert-one {
-  font-family: "Montserrat", cursive;
+  font-family: "Titillium Web", sans-serif;
 }
 
 h1, .h1,
@@ -14480,7 +14480,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Montserrat", cursive;
+  font-family: "Titillium Web", sans-serif;
 }
 
 h1, .h1 {
@@ -14530,7 +14530,7 @@ h1, .h1 {
 
 p {
   font-size: 16px;
-  font-family: "Montserrat", cursive;
+  font-family: "Titillium Web", sans-serif;
 }
 
 a {
@@ -15393,7 +15393,7 @@ body {
 
 .menu {
   transition: ease-in-out 200ms;
-  font-family: "Montserrat", cursive;
+  font-family: "Titillium Web", sans-serif;
   position: relative;
   z-index: 4;
   top: 0;
@@ -15605,6 +15605,11 @@ form.cart .quantity .qty {
 
 form.cart button {
   height: 100%;
+  background-color: #850101 !important;
+}
+
+a.checkout-button {
+  background-color: #850101 !important;
 }
 
 @media (max-width: 767.98px) {

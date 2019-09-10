@@ -20,19 +20,17 @@
         max-width: 100% !important;
     }
 }
-#front-page{
-    .fp-title{
-        transition: #{$default-transition} #{$default-transition-time};
-        &:hover{
-            background-color: $white-alpha-3 !important;
-            color: $brand-dark !important;
-        }
+.fp-title{
+    transition: #{$default-transition} #{$default-transition-time};
+    &:hover{
+        background-color: $white-alpha-3 !important;
+        color: $brand-dark !important;
     }
-    #front-banner{
-        padding-bottom: 70px;
-    }
-
 }
+#front-banner{
+    padding-bottom: 70px;
+}
+
 body{
     padding-bottom: 0 !important;
 }
