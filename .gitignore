@@ -1,5 +1,5 @@
 node_modules
-assets/css*
+# assets/css*
 assets/pjs*
 blog/wp-content/themes.bak
 # blog/wp-config.php
