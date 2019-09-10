@@ -96,6 +96,13 @@ module.exports = function (grunt) {
                     src: ['*.scss'],
                     dest: 'assets/css',
                     ext: '.min.css'
+                },
+                {
+                    expand: true,
+                    cwd: 'blog/wp-content/themes/storefront-child/',
+                    src: ['*.scss'],
+                    dest: 'blog/wp-content/themes/storefront-child/assets/css',
+                    ext: '.min.css'
                 }]
             },
             dev: {
