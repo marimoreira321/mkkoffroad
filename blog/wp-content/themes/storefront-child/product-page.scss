@@ -87,6 +87,14 @@ form.cart {
 a.checkout-button{
     background-color: $brand-red !important;    
 }
+
+.single-product div.product .summary{
+    width: 40% !important;
+}
+
+.woocommerce-product-gallery{
+    width: 50% !important;
+}
 @include media-breakpoint-down('sm') {
     .woocommerce-tabs ul.tabs li {
         width: 45%;
