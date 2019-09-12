@@ -2,7 +2,7 @@ require('./lib/vanilla-libs.js');
 import MobileMenu from './vue.components/navbar.vue';
 
 $(document).ready(function () {
-    
+
     require('./lib/on-ready-libs.js');
 
     /* Reveals the menu after page loading */

@@ -5,6 +5,8 @@
  * @package storefront
  */
 $t_uri = get_template_directory_uri().'-child';
+$store_url = get_site_url();
+
 ?>
 <div id="front-page" class="container w-100">
 	<div class="row bg-white" id="front-banner">
@@ -15,9 +17,10 @@ $t_uri = get_template_directory_uri().'-child';
 		</div>
 	</div>
 	<div class="w-100" id="portfolio">
-		<products v-for="(items, idx) in products" 
-			:items="items.items" 
-			:title="items.title" 
+		<products v-for="(items, idx) in products"
+			:items="items.items"
+			:title="items.title"
+			:title_url="'<?= $store_url ?>/'+items.title_url"
 			:base_url="'<?= $t_uri ?>/assets/images/mkk/'"
 			:key="idx"
 		/>
