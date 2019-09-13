@@ -79,7 +79,7 @@ $(document).ready(function () {
         //---
 
     //---
-    $('.related.products ul .product.type-product.status-publish').addClass("col-5 mx-1 px-0");
+    $('.related.products ul .product.type-product.status-publish').addClass("col-md-5 col-12 mx-1 px-0");
 
 });
 
