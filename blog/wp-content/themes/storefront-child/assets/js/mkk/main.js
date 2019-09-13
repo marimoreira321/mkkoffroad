@@ -79,6 +79,8 @@ $(document).ready(function () {
         //---
 
     //---
+    $('.related.products ul .product.type-product.status-publish').addClass("col-5 mx-1 px-0");
+
 });
 
 let MenuMobile = new Vue({

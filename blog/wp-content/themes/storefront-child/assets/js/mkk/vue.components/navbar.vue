@@ -28,7 +28,9 @@
                             >
                                 <div class="row bg-dark">
                                     <div class="col-10">
-                                        <h6 class="text-strong t-white py-3 m-0 font-14px">{{item.title}}</h6>
+                                        <h6 class="text-strong t-white py-3 m-0 font-14px" @click="go(item.url)">
+                                                {{item.title}}
+                                        </h6>
                                     </div>
                                     <div class="col-2 d-flex align-items-center">
                                         <i class="fas fa-chevron-right fa-2x" />
@@ -43,13 +45,13 @@
         
         <div id="mn-hidden" class="bg-dark" :class="{ 'mn-open': opened, 'mn-closed': !opened }">
             <div class="w-100 text-center">
-                <i class="fas fa-times fa-2x my-3" @click="opened = false"/>
+                <i class="fas fa-times fa-2x my-3 t-white" @click="opened = false"/>
             </div>
-            <ul>
+            <ul class="pl-0 ml-0" id="mobile-navbar">
                 <li v-for="(item, idx) in items" :key="idx" @click="go(item.url)"
-                    class="py-2"
+                    class="py-1"
                 >
-                    <h6 class="text-strong t-white py-3 fons-16">{{item.title}}</h6>
+                    <h6 class="text-strong t-white py-2 font-16px text-center">{{item.title}}</h6>
                 </li>
             </ul>
         </div>
@@ -63,24 +65,38 @@
                 opened: false,
                 items: [
                     {
-                        title: 'Item 1',
+                        title: 'COMPRAR',
+                        url: 'nossos-produtos'
                     },
                     {
-                        title: "Item 2",
+                        title: "SOBRE NÓS",
+                        url: 'sobre-nos'
                     },
                     {
-                        title: "Item 3"
+                        title: "FAQ",
+                        url: 'perguntas-frequentes'
+                    },
+                    {
+                        title: "CONTATO",
+                        url: 'contato'
+                    },
+                    {
+                        title: "NOSSOS CLIENTES",
+                        url: 'nossos-clientes'
                     }
                 ],
                 select: [
                     {
                         title: 'COMPRAR',
+                        url: 'nossos-produtos'
                     },
                     {
                         title: "SOBRE NÓS",
+                        url: 'sobre-nos'
                     },
                     {
-                        title: "CONTATO"
+                        title: "CONTATO",
+                        url: 'contato'
                     }
                 ]
             }
@@ -113,13 +129,22 @@
 }
 
 #mn-hidden{
-    position: absolute;
+    position: fixed;
     height: 100vh;
     min-width: 50vw;
     overflow-y: scroll;
     top: 0;
     transition: ease-in-out 200ms;
     z-index: 999;
+}
+#mobile-navbar li{
+    transition: ease-in-out 200ms;
+}
+#mobile-navbar li:hover{
+    background-color: #666268
+}
+#mobile-navbar li:active{
+    background-color: #434044
 }
 .mn-open{
     left: 0;
