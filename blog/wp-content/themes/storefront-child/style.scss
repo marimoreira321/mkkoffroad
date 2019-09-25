@@ -2,12 +2,12 @@
 @import '../../../../assets/sass/partials/imports';
 @import 'assets/scss/theme';
 #page {
-    background-image: url('../images/desert-background1.jpg');
+    // background-image: url('../images/desert-background1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position-y: 60%;
-    background-color: black;
+    background-color: white;
 }
 #content{
     .col-full{

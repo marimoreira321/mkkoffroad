@@ -3,12 +3,12 @@
 @import 'assets/scss/partials/header';
 
 #page {
-    background-image: url('../images/desert-background1.jpg');
+    // background-image: url('../images/desert-background1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position-y: 60%;
-    background-color: black;
+    background-color: white;
 }
 
 #main {
@@ -19,26 +19,25 @@
 
 #secondary {
     background-color: $white;
-    border-radius: $border-radius;
+    // border-radius: $border-radius;
     padding: 20px 50px;
 }
 
 .site-main {
     ul.products {
         li.product {
-            box-shadow: 0 0 1em $gray-alpha-1;
+            border: 3px solid $gray;
             transition: #{$default-transition} #{$default-transition-time};
             padding-bottom: 1em;
-
+            width: 23% !important;
+            margin-right: 1% !important;
+            border-radius: 0 !important;
             &:hover {
                 box-shadow: 0 0 2em $gray-alpha-2;
             }
         }
 
-        li.product,
-        img {
-            border-radius: $border-radius;
-        }
+        
     }
 }
 
