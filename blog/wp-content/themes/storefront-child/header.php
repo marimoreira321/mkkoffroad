@@ -23,7 +23,6 @@
 		echo '<link rel="stylesheet" id="home-scss" href="'.get_template_directory_uri().'-child/assets/css/product-page.min.css" type="text/css" media="all">';		
 	}
 $base_url =  get_site_url().'/';
-
 ?>
 	<?php wp_head(); ?>
 </head>
