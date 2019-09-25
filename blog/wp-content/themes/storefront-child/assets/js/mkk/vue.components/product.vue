@@ -26,6 +26,8 @@
 }
 .fp-product-image{
     transition: ease-in-out 200ms;
+    min-height: 120px;
+    border-radius: 0 !important;
 }
 .fp-product-image:hover{
     box-shadow: 0 0 1em gray;

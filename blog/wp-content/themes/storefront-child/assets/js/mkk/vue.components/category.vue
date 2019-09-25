@@ -1,5 +1,5 @@
 <template>
-    <div class="category border-radius-sm py-2">
+    <div class="category border-radius-sm">
         <button 
             @click="go"
             :style="'background-image: url('+thumb+')'"
@@ -51,7 +51,7 @@
     background-size: 210%;
     transition: ease-in-out 200ms;
     border-radius: 1px;
-    /* border: 1px solid rgb(200, 200, 200) */
+    border: 1px solid white
 }
 
 .category-name{

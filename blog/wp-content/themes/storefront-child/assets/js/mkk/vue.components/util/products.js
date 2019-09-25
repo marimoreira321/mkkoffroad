@@ -2,8 +2,8 @@ export default {
     products(){
         return [
             {
-                title: 'NOSSOS PRODUTOS',
-                title_url: 'nossos-produtos',
+                // title: 'NOSSOS PRODUTOS',
+                // title_url: 'nossos-produtos',
                 items: [
                     {
                         name: 'BAGAS UNIVERSAIS',
@@ -28,7 +28,7 @@ export default {
                 ]
             },
             {
-                title: 'ESSÊNCIA MKK',
+                // title: 'ESSÊNCIA MKK',
                 title_url: false,
                 items: [
                     {

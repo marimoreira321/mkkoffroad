@@ -16,7 +16,7 @@
             
         </div> -->
     </div>
-    <div id="menu_part" class="row mb-3 vw-100">
+    <div id="menu_part" class="row mb-0 vw-100">
         <div id="" class="col-12 d-flex align-items-center">
             <img class="d-md-none" src="<?php echo get_template_directory_uri().'/assets/images/mkk/default.png'?>"
                 style="height: 100px">

@@ -16,6 +16,10 @@ $store_url = get_site_url();
 		?>
 		</div>
 	</div>
+	<h4 class="text-center">ATALHO PARA O QUE HÁ DE MELHOR 
+		<a
+		href="<?= get_site_url() ?>/nossos-produtos"><i class="bg-brand-red fas fa-chevron-right text-white text-weight-bold p-2 ml-3" ></i></a>
+	</h4>
 	<div class="w-100" id="portfolio">
 		<products v-for="(items, idx) in products"
 			:items="items.items"
