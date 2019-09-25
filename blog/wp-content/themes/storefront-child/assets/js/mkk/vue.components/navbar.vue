@@ -3,10 +3,10 @@
         <div class="container w-100 px-0">
             <div class="row m-2 justify-contente-center px-2">
                 <div class="col-2">
-                    <i class="fas fa-bars fa-2x pointer text-white"  @click="opened = true"/>
+                    <i class="fas fa-bars fa-2x pointer text-black"  @click="opened = true"/>
                 </div>
                 <div class="col-8 text-center">
-                    <img :src="logo" style="height: 60px" class="d-inline-block">
+                    <img :src="logo" style="height: 60px" class="d-inline-block" @click="go('')">
                 </div>
                 <div class="col-2">
                     
@@ -48,10 +48,10 @@
                 <i class="fas fa-times fa-2x my-3 t-white" @click="opened = false"/>
             </div>
             <ul class="pl-0 ml-0" id="mobile-navbar">
-                <li v-for="(item, idx) in items" :key="idx" @click="go(item.url)"
+                <li v-for="(item, idx) in items" :key="idx" @click="go(item.url), opened = false"
                     class="py-1"
                 >
-                    <h6 class="text-strong t-white py-2 font-16px text-center">{{item.title}}</h6>
+                    <h6 class="text-strong t-white py-2 font-16px text-center m-0">{{item.title}}</h6>
                 </li>
             </ul>
         </div>
@@ -123,6 +123,7 @@
 }
 #mn-nav ul li{
     border-top: 1px solid
+    
 }
 #mn-nav ul li:last-of-type{
     border-bottom: 1px solid
@@ -131,14 +132,19 @@
 #mn-hidden{
     position: fixed;
     height: 100vh;
-    min-width: 50vw;
+    min-width: 80vw;
     overflow-y: scroll;
     top: 0;
     transition: ease-in-out 200ms;
     z-index: 999;
+    border-right: 10px solid gray ;
 }
 #mobile-navbar li{
     transition: ease-in-out 200ms;
+    border-bottom: 1px solid gray;
+}
+#mobile-navbar li:last-of-type{
+    border: none;
 }
 #mobile-navbar li:hover{
     background-color: #666268
@@ -150,7 +156,7 @@
     left: 0;
 }
 .mn-closed{
-    left: -52vw;
+    left: -82vw;
 }
 
 </style>

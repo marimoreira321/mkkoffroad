@@ -25,12 +25,15 @@
 
 .site-main {
     ul.products {
-        li.product {
-            border: 3px solid $gray;
+        li.product,
+        li.product.last {
+            border: 3px solid #efefef;
             transition: #{$default-transition} #{$default-transition-time};
             padding-bottom: 1em;
-            width: 23% !important;
-            margin-right: 1% !important;
+            @include media-breakpoint-up('sm'){
+                width: 23% !important;
+                margin-right: 1% !important;
+            }
             border-radius: 0 !important;
             &:hover {
                 box-shadow: 0 0 2em $gray-alpha-2;
