@@ -47,7 +47,7 @@
         <div class="menu-secondary col-12 d-flex align-items-center justify-content-start w-100 bg-white closed">
                 <ul
                     class="d-none m-0 d-md-flex ml-5 pt-5 py-sm-0 px-0 px-sm-3 align-items-center w-100 justify-content-start">
-                    <li><a class="t-black" href="<?= get_site_url() ?>/nossos-produtos">SELECIONAR MARCA</a></li>
+                    <li><a class="t-black" href="<?= get_site_url() ?>/nossos-produtos">SELECIONAR CARRO</a></li>
                     <span class='mx-2 t-black'> | </span>
                     <li><a class="t-black" href="<?= get_site_url() ?>/categoria-produto/acessorios">ACESSÓRIOS</a></li>
                     <span class='mx-2 t-black'> | </span>
