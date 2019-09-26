@@ -31,6 +31,7 @@
 
 		<div class="row" style="border-bottom: 2px solid white">
 			<div class="col-12 col">
+				
 			</div>
 		</div>
 

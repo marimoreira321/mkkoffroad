@@ -1,6 +1,6 @@
 <template>
 
-<div class="row mt-0 pt-0 reveal l-fade-scroll lazy mx-5 px-3">
+<div class="row mt-0 pt-0 reveal l-fade-scroll lazy ">
 		<h3 class="h2 text-center t-black mt-0 w-100 py-4 bg-white mb-0 fp-title" v-if="title">
             <a :href="title_url" v-if="title_url != 'false'" class="t-black">
                 {{title}}
