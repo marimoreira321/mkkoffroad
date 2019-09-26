@@ -79,6 +79,24 @@ a:hover{
 .box .box-content{
     height: 300px;
 }
+.newsletter-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input{
+        height: 30px;
+    }
+    button{
+        border: none;
+        border-radius: 0;
+        height: 30px;
+        background-color: #801501;
+        font-family: 'Titillium Web', sans-serif;
+        &:hover{
+            background-color: rgba(128, 21, 1, 0.6)
+        }
+    }
+}
 /****/
 @media(min-width:992px){
 

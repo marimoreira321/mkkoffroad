@@ -14,6 +14,11 @@ $(document).ready(function () {
     $('#menu_right .menu-item').on('click', function(){
         location.href=$(this).find('a').attr('href');
     });
+    $('#buy').on('click', e =>{
+        $('.menu-secondary ul').toggleClass('open');
+        $('#buy i').toggleClass('d-inline');
+        $('#buy').toggleClass('active');
+    })
 
     /* Sets the mobile version of the menu. Only works if loaded in mobile
      * Otherwise will disformat

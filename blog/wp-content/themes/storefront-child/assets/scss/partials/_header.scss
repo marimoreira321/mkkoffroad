@@ -125,8 +125,26 @@
 .menu-secondary{
     ul li{
         list-style-type: none;
-        color: $brand-dark
+        color: $brand-dark;
+        padding: 0 10px;
+        &:hover{
+            a{
+                color: $brand-light !important;
+            }
+        }
     }
+    ul{
+        *{transition: #{$default-transition-time} #{$default-transition};}
+        height: 50px;
+        opacity: 0;
+        z-index: -9;
+        transition: ease-in-out 200ms;
+        &.open {
+            opacity: 1;
+            z-index: inherit;
+        }
+    }
+    
 }
 @include media-breakpoint-down(md){
     #main-header{

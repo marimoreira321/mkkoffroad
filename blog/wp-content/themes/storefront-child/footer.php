@@ -29,9 +29,19 @@
 			</div>
 		</div>
 
-		<div class="row" style="border-bottom: 2px solid white">
-			<div class="col-12 col">
-				
+		<div class="row  py-3">
+			<div class="col-12 col-md-6">
+				<h3 class="t-white text-center m-0 p-0">
+					FIQUE POR DENTRO DAS NOVIDADES
+				</h3>
+			</div>
+			<div class="col-12 col-md-6 text-center">
+				<form class="newsletter-form m-0 p-0">
+					<input placeholder="Seu email" type="email" required name="newsletter">
+					<button class="btn btn-success p-0 px-2 m-0" >
+						Cadastrar
+					</button>
+				</form>
 			</div>
 		</div>
 

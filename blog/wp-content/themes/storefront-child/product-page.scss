@@ -31,7 +31,7 @@
             transition: #{$default-transition} #{$default-transition-time};
             padding-bottom: 1em;
             @include media-breakpoint-up('sm'){
-                width: 23% !important;
+                width: 20% !important;
                 margin-right: 1% !important;
             }
             border-radius: 0 !important;

@@ -28,7 +28,7 @@ export default {
                 ]
             },
             {
-                // title: 'ESSÊNCIA MKK',
+                title: 'ESSÊNCIA MKK',
                 title_url: false,
                 items: [
                     {
