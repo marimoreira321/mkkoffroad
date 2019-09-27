@@ -54,41 +54,18 @@ export default {
                 ]
             }
         ]
-    },
-
-    categories(){
-        return [
-            {
-                items: [
-                    {
-                        name: 'BAGAS UNIVERSAIS',
-                        thumb: 'cat_01.png',
-                        uri: 'categoria-produto/bagas-universais'
-                    },
-                    {
-                        name: 'ILUMINAÇÃO',
-                        thumb: 'cat_02.png',
-                        uri: 'categoria-produto/iluminacao'
-                    },
-                    {
-                        name: 'ACESSÓRIOS',
-                        thumb: 'cat_03.png',
-                        uri: 'categoria-produto/acessorios'
-                    },
-                    {
-                        name: 'BARRACAS',
-                        thumb: 'cat_03.png',
-                        uri: 'categoria-produto/barracas'
-                    }
-                ]
-            },
-        ]
     }
     ,
     brands() {
         return [
             {
+                title: 'NOSSOS PRODUTOS',
                 items: [
+                    {
+                        name: 'SUZUKI',
+                        thumb: 'cat_01.png',
+                        uri: 'categoria-produto/suzuki'
+                    },
                     {
                         name: 'SUZUKI',
                         thumb: 'cat_01.png',
@@ -124,6 +101,26 @@ export default {
                         thumb: 'cat_03.png',
                         uri: 'categoria-produto/outros'
                     },
+                    {
+                        name: 'BAGAS UNIVERSAIS',
+                        thumb: 'cat_01.png',
+                        uri: 'categoria-produto/bagas-universais'
+                    },
+                    {
+                        name: 'ILUMINAÇÃO',
+                        thumb: 'cat_02.png',
+                        uri: 'categoria-produto/iluminacao'
+                    },
+                    {
+                        name: 'ACESSÓRIOS',
+                        thumb: 'cat_03.png',
+                        uri: 'categoria-produto/acessorios'
+                    },
+                    {
+                        name: 'BARRACAS',
+                        thumb: 'cat_03.png',
+                        uri: 'categoria-produto/barracas'
+                    }
                 ]
             },
         ]

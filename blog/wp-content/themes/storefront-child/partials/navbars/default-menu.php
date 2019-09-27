@@ -1,4 +1,4 @@
-<div class="col-12 d-none d-md-block">
+<div class="col-12 d-none d-md-block position-fixed" >
     <div
         class="row text-center text-md-right m-0 d-md-flex pt-3 py-sm-0 px-0 px-sm-3 align-items-center text-strong">
 
@@ -28,25 +28,25 @@
                             style="height: 50px">
                     </a>
                 </li>
-                <li class="menu-item p-3 font-16px ml-3" id="buy"><a
-                    href="#">
-                    COMPRAR</a>
+                <li class="menu-item p-3 font-16px ml-3 t-white " id="buy"><span class="t-white"
+                    >
+                    COMPRAR</span>
                     <i class="fas fa-chevron-down d-none"></i>
                 </li>
-                <li class="menu-item p-3 font-16px"><a href="<?= get_site_url() ?>/sobre-nos">SOBRE NÓS</a></li>
-                <li class="menu-item p-3 font-16px"><a href="<?= get_site_url() ?>/nossos-clientes">NOSSOS CLIENTES</a>
+                <li class="menu-item p-3 font-16px t-white"><a class="t-white" href="<?= get_site_url() ?>/sobre-nos">SOBRE NÓS</a></li>
+                <li class="menu-item p-3 font-16px t-white"><a class="t-white" href="<?= get_site_url() ?>/nossos-clientes">NOSSOS CLIENTES</a>
                 </li>
-                <li class="menu-item p-3 font-16px"><a href="<?= get_site_url() ?>/perguntas-frequentes">FAQ</a></li>
-                <li class="menu-item p-3 font-16px"><a href="<?= get_site_url() ?>/contato">CONTATO</a></li>
+                <li class="menu-item p-3 font-16px t-white"><a class="t-white" href="<?= get_site_url() ?>/perguntas-frequentes">FAQ</a></li>
+                <li class="menu-item p-3 font-16px t-white"><a class="t-white" href="<?= get_site_url() ?>/contato">CONTATO</a></li>
                 <!-- <li class="menu-item p-3"><a href="/">ONDE COMPRAR</a></li> -->
             </ul>
             <form class="form m-0 mr-5 border-sm">
                 <input class="form-control" name="s" type="search" placeholder="Pesquisar..">
             </form>
         </div>
-        <div class="menu-secondary col-12 d-flex align-items-center justify-content-start w-100 bg-white closed">
+        <div class="menu-secondary col-12 d-flex align-items-center justify-content-start w-100 bg-white closed p-0 m-0">
                 <ul
-                    class="d-none m-0 d-md-flex ml-5 pt-5 py-sm-0 px-0 px-sm-3 align-items-center w-100 justify-content-start">
+                    class="d-none m-0 d-md-flex ml-0 pt-5 py-sm-0 px-0 px-sm-3 align-items-center w-100 justify-content-start">
                     <li><a class="t-black" href="<?= get_site_url() ?>/nossos-produtos">SELECIONAR CARRO</a></li>
                     <span class='mx-2 t-black'> | </span>
                     <li><a class="t-black" href="<?= get_site_url() ?>/categoria-produto/acessorios">ACESSÓRIOS</a></li>

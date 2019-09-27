@@ -36,7 +36,7 @@
 }
 
 .category button:hover{
-    background-size: 230%;
+    background-size: 315%;
 }
 .category button:hover > .category-name{
     margin-bottom: 18px;
@@ -45,10 +45,10 @@
     transition: ease-in-out 200ms;
 }
 .category button{
-    height: 100%;
+    height: 150px;
     width: 100%;
     background-position: center;
-    background-size: 210%;
+    background-size: 300%;
     transition: ease-in-out 200ms;
     border-radius: 1px;
     border: 1px solid white

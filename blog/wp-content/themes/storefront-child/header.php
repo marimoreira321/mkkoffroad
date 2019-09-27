@@ -17,12 +17,17 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php
+	$show_title = true;
 	if(is_home() || $pagename == 'nossos-produtos'){
+		$show_title = false;
 		echo '<link rel="stylesheet" id="home-scss" href="'.get_template_directory_uri().'-child/assets/css/style.min.css" type="text/css" media="all">';
 	}else{
 		echo '<link rel="stylesheet" id="home-scss" href="'.get_template_directory_uri().'-child/assets/css/product-page.min.css" type="text/css" media="all">';		
 	}
 $base_url =  get_site_url().'/';
+$img = false;
+if(function_exists('z_taxonomy_image_url')) $img = z_taxonomy_image_url();
+
 ?>
 	<?php wp_head(); ?>
 </head>
@@ -51,7 +56,13 @@ $base_url =  get_site_url().'/';
 					</div>
 				</div>
 			</nav>
-
+			<?php if($show_title && $img != false): ?>
+				<div class="container m-0 p-0 category-image vw-100" style="background-image: url('<?= $img ?>')">
+				<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
+					<h1 class="woocommerce-products-header__title page-title text-right"><?php woocommerce_page_title(); ?></h1>
+				<?php endif; ?>
+				</div>
+				<?php endif; ?>
 		</header><!-- #masthead -->
 
 

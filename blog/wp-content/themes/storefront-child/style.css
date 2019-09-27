@@ -19,5 +19,6 @@ body{
 
 .storefront-sticky-add-to-cart__content-button{
     height: 100%;
-    background-color: #850101 !important;
+    background-color: #ffd900 !important;
+    color: black !important;
 }

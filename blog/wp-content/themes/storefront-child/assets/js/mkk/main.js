@@ -11,42 +11,15 @@ $(document).ready(function () {
     },300);
 
     /* Sets the links into menu buttons */
-    $('#menu_right .menu-item').on('click', function(){
-        location.href=$(this).find('a').attr('href');
-    });
+    // $('#menu_right .menu-item').on('click', function(){
+    //     location.href=$(this).find('a').attr('href');
+    // });
     $('#buy').on('click', e =>{
         $('.menu-secondary ul').toggleClass('open');
         $('#buy i').toggleClass('d-inline');
         $('#buy').toggleClass('active');
     })
 
-    /* Sets the mobile version of the menu. Only works if loaded in mobile
-     * Otherwise will disformat
-     */
-    // if ($(window).innerWidth() < 768) {
-    //     $('#menu_part').addClass('menu-mobile')
-    //     $('.menu').removeClass('mt-4');
-    //     $('.menu-mobile').addClass('position-fixed')
-    //     let mobile = $('.menu-mobile');
-    //     mobile.css('height', 0);
-    //     mobile.css('transition', 'ease-in-out 200ms');
-
-    //     $('#menu-toggler').on('click', function(){
-    //         if(!mobile.hasClass('opened')){
-    //             mobile.addClass('opened');
-    //             let height = mobile.children("#menu_right").css('height');
-    //             mobile.css('height', height);
-    //             mobile.find('li').on('click', function(){
-    //                 mobile.removeClass('opened');
-    //                 mobile.css('height', 0);
-    //             })
-    //         }else{
-    //             mobile.removeClass('opened');
-    //             mobile.css('height', 0);
-    //         }
-
-    //     });
-    // }
 
         $('#the_post a').attr("target", "_blank");
             // Window height getter
