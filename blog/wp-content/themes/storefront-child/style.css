@@ -22,3 +22,11 @@ body{
     background-color: #ffd900 !important;
     color: black !important;
 }
+#customer_details .col-1,
+#customer_details .col-2{    
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+#customer_details .form-row{
+    display: block !important;
+}

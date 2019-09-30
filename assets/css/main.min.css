@@ -15116,6 +15116,28 @@ body {
   color: #fd7e14;
 }
 
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-form input {
+  height: 30px;
+}
+
+.newsletter-form button {
+  border: none;
+  border-radius: 0;
+  height: 30px;
+  background-color: #801501;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.newsletter-form button:hover {
+  background-color: rgba(128, 21, 1, 0.6);
+}
+
 .simple-alert {
   position: fixed;
   top: 100px;

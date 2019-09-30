@@ -11,12 +11,12 @@
 
     &-mobile{
         overflow: hidden;
-        background: white;
+        background: #222;
         top: 0;
     }
     #menu_part{
         >div {
-            background-color: #515151
+            background-color: #cecece
         }
     }
     .menu-item{
@@ -183,4 +183,7 @@
     .menu-mobile{
         left: 0;
     }
+}
+#mobile-menu{
+    background: #222;
 }

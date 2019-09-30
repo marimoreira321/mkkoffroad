@@ -1,7 +1,7 @@
 <template>
     <div class="w-100" id="mn-topbar">
         <div class="container w-100 px-0">
-            <div class="row m-2 justify-contente-center px-2">
+            <div class="row mb-2 justify-contente-center p-3">
                 <div class="col-2">
                     <i class="fas fa-bars fa-2x pointer text-black"  @click="opened = true"/>
                 </div>
@@ -15,7 +15,8 @@
             <div class="row">
                 <div class="col-12 px-2 ">
                     <form class="px-3">
-                        <input type="search" name="s" placeholder="Buscar" class="w-100"/>
+                        <input type="search" name="s" placeholder="Buscar" 
+                        class="w-100 rounded py-0"/>
                     </form>
                 </div>
             </div>

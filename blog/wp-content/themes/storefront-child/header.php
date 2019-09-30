@@ -57,9 +57,9 @@ if(function_exists('z_taxonomy_image_url')) $img = z_taxonomy_image_url();
 				</div>
 			</nav>
 			<?php if($show_title && $img != false): ?>
-				<div class="container m-0 p-0 category-image vw-100" style="background-image: url('<?= $img ?>')">
+				<div class="container m-0 mt-md-5 0 p-0 category-image vw-100" style="background-image: url('<?= $img ?>')">
 				<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-					<h1 class="woocommerce-products-header__title page-title text-right"><?php woocommerce_page_title(); ?></h1>
+					<h1 class="woocommerce-products-header__title page-title text-center text-md-right"><?php woocommerce_page_title(); ?></h1>
 				<?php endif; ?>
 				</div>
 				<?php endif; ?>

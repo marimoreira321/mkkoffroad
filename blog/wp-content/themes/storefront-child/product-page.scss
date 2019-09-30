@@ -14,7 +14,9 @@
 #main {
     background-color: $white;
     border-radius: $border-radius;
-    padding: 25px 30px 25px;
+    @include media-breakpoint-up('sm'){
+        padding: 25px 30px 25px;
+    }
 }
 
 #secondary {
@@ -30,14 +32,27 @@
             border: 3px solid #efefef;
             transition: #{$default-transition} #{$default-transition-time};
             padding-bottom: 1em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
             @include media-breakpoint-up('sm'){
                 width: 20% !important;
                 margin-right: 1% !important;
+            }
+            @include media-breakpoint-down('sm'){
+                width: 45% !important;
+                margin-right: 2% !important;
+                .button {
+                    width: 95% !important;
+                    font-size: 12px !important;
+                }
             }
             border-radius: 0 !important;
             &:hover {
                 box-shadow: 0 0 2em $gray-alpha-2;
             }
+            
         }
 
         
@@ -89,6 +104,7 @@ form.cart {
 a.checkout-button{
     background-color: $brand-red !important;    
 }
+
 @include media-breakpoint-up('sm'){
     .single-product div.product .summary{
         width: 40% !important;
@@ -102,6 +118,4 @@ a.checkout-button{
     .woocommerce-tabs ul.tabs li {
         width: 45%;
     }
-    
-
 }
