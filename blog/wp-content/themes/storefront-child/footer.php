@@ -45,7 +45,8 @@
 			</div>
 		</div>
 
-
+		<?php do_action( 'storefront_footer' ); ?>
+ 
 	</div><!-- .col-full -->
 </footer><!-- #colophon -->
 

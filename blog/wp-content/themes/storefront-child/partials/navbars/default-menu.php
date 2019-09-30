@@ -17,6 +17,10 @@
         </div> -->
     </div>
     <div id="menu_part" class="row mb-0 vw-100">
+            <form class="form m-0 pl-sm-5 border-sm w-100 py-2" style="background-color: #222">
+                <input class="ml-4 p-0 pl-2" name="s" type="search" placeholder="Pesquisar..">
+                <span class="ml-3 p-0 text-center t-white">Enviamos para todo Brasil!</span>
+            </form>
         <div id="" class="col-12 d-flex align-items-center">
             <img class="d-md-none" src="<?php echo get_template_directory_uri().'/assets/images/mkk/default.png'?>"
                 style="height: 100px">
@@ -42,9 +46,17 @@
                 <li class="menu-item p-3 font-16px t-white"><a class="t-black" href="<?= get_site_url() ?>/contato">CONTATO</a></li>
                 <!-- <li class="menu-item p-3"><a href="/">ONDE COMPRAR</a></li> -->
             </ul>
-            <form class="form m-0 mr-5 border-sm">
-                <input class="form-control" name="s" type="search" placeholder="Pesquisar..">
-            </form>
+                        <a 
+                            href="<?= get_site_url() ?>/minha-conta"
+                            class="t-black font-12px d-inline-block mr-3  btn-link"
+                        >
+                            LOGIN/REGISTRAR
+                        </a>
+                        <a 
+                            href="<?= get_site_url() ?>/carrinho"
+                            class="t-black font-12px d-inline-block btn-link" 
+                        ><i class="fas fa-shopping-cart mr-3"></i>
+                    </a>
         </div>
         <div class="menu-secondary col-12 d-flex align-items-center justify-content-start w-100 bg-white closed p-0 m-0">
                 <ul

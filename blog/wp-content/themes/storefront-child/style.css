@@ -23,10 +23,17 @@ body{
     color: black !important;
 }
 #customer_details .col-1,
-#customer_details .col-2{    
+#customer_details .col-2,
+#customer_login .col-1,
+#customer_login .col-2{    
     flex: 0 0 100% !important;
     max-width: 100% !important;
 }
-#customer_details .form-row{
+
+#customer_details .form-row,
+#customer_login .form-row{
     display: block !important;
+}
+#colophon .site-info{
+    display: none;
 }

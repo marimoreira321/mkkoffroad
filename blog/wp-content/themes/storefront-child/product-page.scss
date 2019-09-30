@@ -113,6 +113,9 @@ a.checkout-button{
     .woocommerce-product-gallery{
         width: 50% !important;
     }
+    .category-image{
+        margin-top: 100px !important;
+    }
 }
 @include media-breakpoint-down('sm') {
     .woocommerce-tabs ul.tabs li {
