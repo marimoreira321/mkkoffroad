@@ -50,11 +50,12 @@ $cart_total = WC()->cart->get_cart_total();
                 <li class="menu-item p-3 font-16px t-white"><a class="t-black" href="<?= get_site_url() ?>/contato">CONTATO</a></li>
                 <!-- <li class="menu-item p-3"><a href="/">ONDE COMPRAR</a></li> -->
             </ul>
+                    
                         <a 
                             href="<?= get_site_url() ?>/minha-conta"
-                            class="t-black font-12px d-inline-block mr-3  btn-link"
+                            class="t-black font-12px d-inline-block mr-3 text-center btn-link"
                         >
-                            LOGIN/REGISTRAR
+                            <?= is_user_logged_in() ? 'MEUS PEDIDOS' : 'LOGIN/REGISTRAR' ?>
                         </a>
                         <a 
                             href="<?= get_site_url() ?>/carrinho"
