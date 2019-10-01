@@ -40,7 +40,7 @@ $cart_total = WC()->cart->get_cart_total();
                 </li>
                 <li class="menu-item p-3 font-16px ml-3 t-white " id="buy"><a 
                     href="<?= get_site_url() ?>/nossos-produtos"
-                    class="t-black"
+                    class="t-white"
                     >
                     COMPRAR</a>
                     <i class="fas fa-chevron-down d-none"></i>
@@ -55,13 +55,13 @@ $cart_total = WC()->cart->get_cart_total();
                     
                         <a 
                             href="<?= get_site_url() ?>/minha-conta"
-                            class="t-black font-12px d-inline-block mr-3 text-center btn-link"
+                            class="t-white font-12px d-inline-block mr-3 text-center btn-link"
                         >
                             <?= is_user_logged_in() ? 'MEUS PEDIDOS' : 'LOGIN/REGISTRAR' ?>
                         </a>
                         <a 
                             href="<?= get_site_url() ?>/carrinho"
-                            class="t-black text-center font-12px d-inline-block btn-link" 
+                            class="t-white text-center font-12px d-inline-block btn-link" 
                         ><i class="fas fa-shopping-cart "></i><span>(<?= $cart_items ?>)</span>
                         <small><?= $cart_total ?></small>
                     </a>
