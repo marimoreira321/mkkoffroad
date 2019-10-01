@@ -6,7 +6,7 @@
 			<div class="row justify-content-left px-10">
 				<div class="col-12 p-0 m-0" :class="'col-sm-'+(12/(cols || 4))"
                 v-for="(item, idx) in items" :key="idx">
-					<category :title="item.name" :thumb="base_url+item.thumb" :uri="store_url + item.uri" />
+					<category :title="item.name" :thumb="item.thumb" :uri="store_url + item.uri" />
 				</div>
 			</div>
 		</div>
@@ -19,14 +19,18 @@ import Category from './category.vue'
     module.exports = {
         data: function () {
             return {
+                items: {}
             }
         },
         components:{
             Category
         },
         props: [
-            'items', 'base_url', 'title', 'cols', 'store_url'
-        ]
+            'items_json', 'base_url', 'title', 'cols', 'store_url'
+        ],
+        created: function() {
+            this.items = JSON.parse(atob(this.items_json))
+        }
     }
 </script>
 

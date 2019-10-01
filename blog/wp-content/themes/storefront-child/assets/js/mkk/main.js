@@ -70,7 +70,7 @@ $(document).ready(function () {
 
     //---
     $('.related.products ul .product.type-product.status-publish').addClass("col-md-5 col-11 mx-1 px-0");
-
+    $('.storefront-sorting')[1].remove()
 });
 
 let MenuMobile = new Vue({

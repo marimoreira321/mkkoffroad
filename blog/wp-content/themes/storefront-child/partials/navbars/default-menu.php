@@ -1,3 +1,7 @@
+<?php
+$cart_items = WC()->cart->get_cart_contents_count();
+$cart_total = WC()->cart->get_cart_total();
+?>
 <div class="col-12 d-none d-md-block position-fixed" >
     <div
         class="row text-center text-md-right m-0 d-md-flex pt-3 py-sm-0 px-0 px-sm-3 align-items-center text-strong">
@@ -54,8 +58,9 @@
                         </a>
                         <a 
                             href="<?= get_site_url() ?>/carrinho"
-                            class="t-black font-12px d-inline-block btn-link" 
-                        ><i class="fas fa-shopping-cart mr-3"></i>
+                            class="t-black text-center font-12px d-inline-block btn-link" 
+                        ><i class="fas fa-shopping-cart "></i><span>(<?= $cart_items ?>)</span>
+                        <small><?= $cart_total ?></small>
                     </a>
         </div>
         <div class="menu-secondary col-12 d-flex align-items-center justify-content-start w-100 bg-white closed p-0 m-0">

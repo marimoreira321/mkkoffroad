@@ -6,7 +6,7 @@ import Jumbotron from './vue.components/jumbotron.vue';
 //front-page-vue
 
 let data = {
-    brands: ProductItems.brands()
+    // brands: ProductItems.brands()
 }
 
 let fp = new Vue({
