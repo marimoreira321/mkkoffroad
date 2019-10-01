@@ -45,11 +45,11 @@ $cart_total = WC()->cart->get_cart_total();
                     COMPRAR</a>
                     <i class="fas fa-chevron-down d-none"></i>
                 </li>
-                <li class="menu-item p-3 font-16px t-black"><a class="t-black" href="<?= get_site_url() ?>/sobre-nos">SOBRE NÓS</a></li>
-                <li class="menu-item p-3 font-16px t-white"><a class="t-black" href="<?= get_site_url() ?>/nossos-clientes">NOSSOS CLIENTES</a>
+                <li class="menu-item p-3 font-16px t-black"><a class="t-white" href="<?= get_site_url() ?>/sobre-nos">SOBRE NÓS</a></li>
+                <li class="menu-item p-3 font-16px t-white"><a class="t-white" href="<?= get_site_url() ?>/nossos-clientes">NOSSOS CLIENTES</a>
                 </li>
-                <li class="menu-item p-3 font-16px t-white"><a class="t-black" href="<?= get_site_url() ?>/perguntas-frequentes">FAQ</a></li>
-                <li class="menu-item p-3 font-16px t-white"><a class="t-black" href="<?= get_site_url() ?>/contato">CONTATO</a></li>
+                <li class="menu-item p-3 font-16px t-white"><a class="t-white" href="<?= get_site_url() ?>/perguntas-frequentes">FAQ</a></li>
+                <li class="menu-item p-3 font-16px t-white"><a class="t-white" href="<?= get_site_url() ?>/contato">CONTATO</a></li>
                 <!-- <li class="menu-item p-3"><a href="/">ONDE COMPRAR</a></li> -->
             </ul>
                     
