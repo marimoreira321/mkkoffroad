@@ -21,7 +21,9 @@ $cart_total = WC()->cart->get_cart_total();
         </div> -->
     </div>
     <div id="menu_part" class="row mb-0 vw-100">
-            <form class="form m-0 pl-sm-5 border-sm w-100 py-2" style="background-color: #222">
+            <form class="form m-0 pl-sm-5 border-sm w-100 py-2" style="background-color: #222"
+                action="<?= get_site_url() ?>/loja"
+            >
                 <input class="ml-4 p-0 pl-2" name="s" type="search" placeholder="Pesquisar..">
                 <span class="ml-3 p-0 text-center t-white">Enviamos para todo Brasil!</span>
             </form>
