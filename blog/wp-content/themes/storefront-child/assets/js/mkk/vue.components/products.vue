@@ -8,7 +8,7 @@
         </h3>
 		<div class="container w-100 bg-white py-3">
 			<div class="row justify-content-center">
-				<div class="col-6 px-0 mx-0" :class="'col-sm-'+(12/(cols || 4))"
+				<div class="col-12 px-0 mx-0" :class="'col-sm-'+(12/(cols || 4))"
                 v-for="(item, idx) in items" :key="idx">
 					<product :title="item.name" :thumb="base_url+item.thumb" :uri="item.uri" />
 				</div>
