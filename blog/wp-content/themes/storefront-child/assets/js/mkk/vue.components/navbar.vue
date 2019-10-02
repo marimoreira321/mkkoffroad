@@ -14,7 +14,7 @@
             </div>
             <div class="row">
                 <div class="col-12 px-2 ">
-                    <form class="px-3">
+                    <form class="px-3" :action="base_url+'/loja'">
                         <input type="search" name="s" placeholder="Buscar" 
                         class="w-100 rounded py-0"/>
                     </form>

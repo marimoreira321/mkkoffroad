@@ -16,7 +16,7 @@ $store_url = get_site_url();
 		?>
 		</div>
 	</div>
-	<h2 class="text-center">ATALHO PARA O QUE HÁ DE MELHOR 
+	<h2 class="text-center font-24px">TODOS OS PRODUTOS
 		<a
 		href="<?= get_site_url() ?>/nossos-produtos"><i class="bg-brand-red fas fa-chevron-right text-white text-weight-bold p-2 ml-3" ></i></a>
 	</h2>

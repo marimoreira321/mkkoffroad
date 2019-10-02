@@ -32,7 +32,7 @@ $cart_total = WC()->cart->get_cart_total();
                 style="height: 100px">
             <ul id="menu_right"
                 class="d-none m-0 d-md-flex ml-5 pt-5 py-sm-0 px-0 px-sm-3 align-items-center w-100 justify-content-start">
-                <li class="menu-item logo d-inline-block d-md-block mr-5 ">
+                <li class="menu-item logo d-inline-block d-md-block mr-5 pb-2">
                     <a href='<?= get_site_url() ?>'>
                         <img src="<?php echo get_template_directory_uri().'-child/assets/images/mkk/default.png'?>"
                             style="height: 50px">

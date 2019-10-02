@@ -40,7 +40,7 @@ $(document).ready(function () {
             var ww = $(window).innerWidth();
             //---
             $(window).on('resize', function(){
-                console.log(ww);
+                // console.log(ww);
                 // Window height getter
                 wh = $(window).innerHeight();
                 // Windows width getter
@@ -69,7 +69,7 @@ $(document).ready(function () {
         //---
 
     //---
-    $('.related.products ul .product.type-product.status-publish').addClass("col-md-5 col-11 mx-1 px-0");
+    $('.related.products ul .product.type-product.status-publish').addClass("col-5 mx-1 px-0");
     $('.storefront-sorting')[1].remove()
 });
 

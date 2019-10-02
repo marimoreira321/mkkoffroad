@@ -37,3 +37,20 @@ body{
 #colophon .site-info{
     display: none;
 }
+
+@media screen and (max-width: 640px){
+    h2.woocommerce-loop-product__title{
+        font-size: 14px !important;
+    }
+    .woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images{
+        margin-bottom: 0 !important;
+    }
+    h1.product_title.entry-title{
+        margin-bottom: 0 !important;
+    }
+    p.price{
+        margin: 0 !important;
+        color: green;
+        font-weight: bolder;
+    }
+}
