@@ -98,13 +98,19 @@ form.cart {
     }
     button {
         height: 100%;
-        background-color: $brand-red !important;
+        background-color: $success !important;
     }
 }
 a.checkout-button{
-    background-color: $brand-red !important;    
+    background-color: $success !important;    
 }
-
+.storefront-sticky-add-to-cart__content-button{
+    background-color: $success !important;   
+    color: white !important;     
+}
+ul.products li.product .button{
+    height: 100% !important;
+}
 @include media-breakpoint-up('sm'){
     .single-product div.product .summary{
         width: 40% !important;
