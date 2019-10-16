@@ -52,3 +52,33 @@ body{
         font-weight: bolder;
     }
 }
+.woocommerce-product-gallery__image a img{
+    width: 100% !important;
+}
+.category-image{
+	height: 21.5vw !important;
+	min-height: 240px !important;
+}
+ul.products li.product .button{
+	height: auto !important;
+}
+#shipping-simulator{
+	width: 100%;
+}
+#shipping-simulator form.cart{
+	display: flex;
+	align-items: flex-end;
+	padding: 1em 1em;
+}
+#shipping-simulator form.cart label{
+	margin: 0 !important;
+}
+#shipping-simulator form.cart button{
+	color: white;
+}
+#shipping-simulator #zipcode{
+	height: 46px;
+}
+.woocommerce-products-header{
+	padding: 0 !important;
+}

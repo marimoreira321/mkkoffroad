@@ -76,7 +76,7 @@ if(function_exists('z_taxonomy_image_url')) $img = z_taxonomy_image_url();
 	do_action( 'storefront_before_content' );
 	?>
 
-		<div id="content" class="site-content mt-md-5" tabindex="-1">
+		<div id="content" class="site-content mt-md-1" tabindex="-1">
 			<div class="col-full">
 
 				<?php

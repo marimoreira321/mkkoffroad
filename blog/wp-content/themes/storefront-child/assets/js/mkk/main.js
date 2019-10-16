@@ -1,6 +1,8 @@
 require('./lib/vanilla-libs.js');
 import MobileMenu from './vue.components/navbar.vue';
 
+document.cookie = "window_width="+window.innerWidth;
+
 $(document).ready(function () {
 
     require('./lib/on-ready-libs.js');
