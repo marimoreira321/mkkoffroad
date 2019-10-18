@@ -5,7 +5,6 @@ Dependências:
  - VueJs
  - RequireJS
  - Browserify e Babelify
- - Wordpress com um tema pré montado
  - Grunt
  - Uglify
 
